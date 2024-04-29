@@ -8,7 +8,7 @@ function Navbar () {
     
       <nav>
 
-        <ul>
+        <ul className={styles.navbar}>
             <li><Link to={"/"}>Home</Link></li>
             <li><Link to={"/Blog/"}>Blog</Link></li>
             <li><Link to={"/Website_Inspo/"}>Website Inspo</Link></li>
