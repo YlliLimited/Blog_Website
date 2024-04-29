@@ -1,12 +1,18 @@
 import Navbar from "../Components/Navbar/Navbar";
+import Hero from "../Components/Hero/Hero";
 
 function Home () {
   return (
     <>
 
-      <Navbar/>
+      {/* Header */}
 
-      Home
+      <header>
+        <Navbar/>
+        <Hero/>
+      </header>
+        
+      {/* Header End */}
 
     </>
   )

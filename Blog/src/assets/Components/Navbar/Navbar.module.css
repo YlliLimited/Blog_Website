@@ -1,5 +1,5 @@
 .navbar{
-  width: calc(100% - 40px);
+  width: calc(100% - 50px);
   height: clamp(30px, 10vw, 60px);
 
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 
-  padding: 10px 20px;
+  padding: 15px 25px;
 
   background-color: var(--primary-light-color);
 
@@ -17,7 +17,7 @@
   left: 0px;
 
 
-  border-bottom: 2px solid var(--secondary-contrast-color);
+  border-bottom: 3.5px solid var(--secondary-contrast-color);
 }
 
 .navUl{
@@ -49,12 +49,25 @@
   transition: text-shadow 0.15s, color 0.15s;
 }
 .navLink:hover{
-  text-shadow: 1.5px 0px 0px var(--primary-dark-color);
-  color: var(--secondary-contrast-color);
+  text-decoration: underline var(--secondary-contrast-color);
 }
-.navLink:active{
-  text-shadow: 1px 0px 0px var(--primary-dark-color);
-  color: var(--secondary-contrast-color);
 
-  transition: text-shadow 0.05s, color 0.05s;
+
+.navButton{
+  color: var(--primary-light-color);
+  text-decoration: none;
+
+  background-color: var(--secondary-dark-color);
+
+  padding: clamp(8px, 0.85cqw, 0.85cqw) clamp(18px, 1.5cqw, 1.5cqw);
+
+  margin-left: 20px;
+
+  transition: box-shadow 0.1s;
+}
+.navButton p {
+  font-family:'MedievalSharp';
+}
+.navButton:hover{
+  box-shadow: 3.5px 3.5px 0px var(--secondary-contrast-color);
 }
