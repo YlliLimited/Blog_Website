@@ -8,11 +8,17 @@ function Navbar () {
     
       <nav>
 
-        <ul className={styles.navbar}>
-            <li><Link to={"/"}>Home</Link></li>
-            <li><Link to={"/Blog/"}>Blog</Link></li>
-            <li><Link to={"/Website_Inspo/"}>Website Inspo</Link></li>
-        </ul>
+        <div className={styles.navbar}>
+          
+
+          <ul className={styles.navUl}>
+              <li><Link to={"/"} className={styles.navLink}><p>Home</p></Link></li>
+              <li><Link to={"/Blog/"} className={styles.navLink}><p>Blog</p></Link></li>
+              <li><Link to={"/Website_Inspo/"} className={styles.navLink}><p>Website Inspo</p></Link></li>
+          </ul>
+
+
+        </div>
 
       </nav>
 
