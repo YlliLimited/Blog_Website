@@ -62,14 +62,13 @@
 
   background-color: var(--secondary-dark-color);
 
-  padding: clamp(8px, 0.85cqw, 0.85cqw) clamp(18px, 1.5cqw, 1.5cqw);
+  padding: clamp(8px, 0.85cqw, 0.85cqw) clamp(22px, 2cqw, 2cqw);
 
   margin-left: 20px;
 
+  box-shadow: -2.5px 2.5px 0px var(--secondary-contrast-color);
+
   transition: box-shadow 0.1s;
-}
-.navButton p {
-  font-family:'MedievalSharp';
 }
 .navButton:hover{
   box-shadow: 3.5px 3.5px 0px var(--secondary-contrast-color);

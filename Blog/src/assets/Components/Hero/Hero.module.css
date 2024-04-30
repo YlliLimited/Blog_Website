@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
 
-  position: relative;
+  position: sticky;
   top: 0px;
   left: 0px;
 
@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  overflow: hidden;
 }
 
 .heroContent {
@@ -18,25 +20,23 @@
   flex-direction: column;
   align-items: center;
 
-  background-color: var(--primary-light-color);
+  z-index: 2;
 
-  padding: clamp(40px, 6cqw, 6cqw);
-
-  border: 4px solid var(--secondary-contrast-color);
+  transform: translateY(-12vh);
 }
 
 .heroTitle{
-  color: var(--primary-dark-color);
+  color: var(--primary-light-color);
   margin: 0px;
 }
 
 .heroButton{
   margin-top: 2cqw;
 
-  color: var(--primary-light-color);
+  color: var(--primary-dark-color);
   text-decoration: none;
   
-  background-color: var(--primary-dark-color);
+  background-color: var(--primary-light-color);
 
   box-shadow: -3px 3px 0px var(--secondary-contrast-color);
 
@@ -52,4 +52,34 @@
 .heroButton:hover {
   box-shadow: 3px -3px 0px var(--secondary-contrast-color);
   transform: rotate(5deg);
+}
+
+
+.wordCloud{
+  position: absolute;
+
+  bottom: 0px;
+
+  z-index: 1;
+
+  width: clamp( 500px, 70vw, 70vw);
+
+  opacity: 0.5;
+}
+
+.wordGlow{
+  width: 20vw;
+  aspect-ratio: 4 / 1;
+
+  position: absolute;
+
+  bottom: 0px;
+
+  z-index: 0;
+
+  border-radius: 50%;
+
+  background-color: var(--secondary-contrast-color);
+
+  box-shadow: 0px 0px 150px 150px var(--secondary-contrast-color);
 }
