@@ -43,42 +43,42 @@ body, html{
 
 h1{
   font-family:'MedievalSharp';
-  font-size: clamp(3.2rem, 9vw, 10rem);
+  font-size: clamp(3rem, 7.8vw, 9.8rem);
   line-height: 1.1;
   letter-spacing: -1px;
   font-weight: 200;
 }
 h2{
   font-family:'MedievalSharp';
-  font-size: clamp(2.8rem, 7.8vw, 8.8rem);
+  font-size: clamp(2.6rem, 7.6vw, 8.6rem);
   line-height: 1.1;
   letter-spacing: -0.8px;
   font-weight: 200;
 }
 h3{
   font-family:'MedievalSharp';
-  font-size: clamp(2.4rem, 6.6vw, 7.6rem);
+  font-size: clamp(2.2rem, 6.4vw, 7.4rem);
   line-height: 1.15;
   letter-spacing: -0.6px;
   font-weight: 200;
 }
 h4{
   font-family:'MedievalSharp';
-  font-size: clamp(2rem, 5.4vw, 6.4rem);
+  font-size: clamp(1.8rem, 5.2vw, 6.2rem);
   line-height: 1.15;
   letter-spacing: -0.4px;
   font-weight: 200;
 }
 h5{
   font-family:'MedievalSharp';
-  font-size: clamp(1.6rem, 4.2vw, 5.2rem);
+  font-size: clamp(1.4rem, 4vw, 5rem);
   line-height: 1.2;
   letter-spacing: -0.2px;
   font-weight: 200;
 }
 h6{
   font-family:'Montserrat';
-  font-size: clamp(1.2rem, 3vw, 3rem);
+  font-size: clamp(1.1rem, 2.8vw, 2.8rem);
   line-height: 1.2;
   letter-spacing: 0px;
   font-weight: 400;

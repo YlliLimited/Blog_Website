@@ -18,21 +18,25 @@
   flex-direction: column;
   align-items: center;
 
-  background-color: var(--tertiary-light-color);
+  background-color: var(--primary-light-color);
+
+  padding: clamp(40px, 6cqw, 6cqw);
+
+  border: 4px solid var(--secondary-contrast-color);
 }
 
 .heroTitle{
-  color: var(--primary-light-color);
+  color: var(--primary-dark-color);
   margin: 0px;
 }
 
 .heroButton{
   margin-top: 2cqw;
 
-  color: var(--primary-dark-color);
+  color: var(--primary-light-color);
   text-decoration: none;
   
-  background-color: var(--primary-light-color);
+  background-color: var(--primary-dark-color);
 
   box-shadow: -3px 3px 0px var(--secondary-contrast-color);
 
