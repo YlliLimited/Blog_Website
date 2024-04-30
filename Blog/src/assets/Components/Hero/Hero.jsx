@@ -1,14 +1,23 @@
 import styles from "./Hero.module.css";
+import { Link, Outlet } from "react-router-dom";
 
 function Hero () {
   return (
     <>
 
-      <section id="hero">
+      <section id={styles.hero}>
 
-        <h1 className={styles.hero}>Ylli's Code Blog</h1>
+        <div className= {styles.heroContent}>
+
+          <h1 className={styles.heroTitle}>{"Ylli's <Code/> Blog"}</h1>
+          <Link to={"/Blog/"} className = {styles.heroButton}><p>View Blog</p></Link>
+
+        </div>  
 
       </section>
+
+
+      <Outlet/>
 
     </>
   )
