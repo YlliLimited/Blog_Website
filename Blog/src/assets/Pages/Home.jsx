@@ -7,14 +7,12 @@ function Home () {
     <>
 
       {/* Header */}
-
-      <header>
         <Navbar/>
         <Hero/>
-        <RecentBlogs/>
-      </header>
-        
       {/* Header End */}
+
+
+      <RecentBlogs/>
 
     </>
   )

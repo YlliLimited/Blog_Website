@@ -10,7 +10,7 @@ function Hero () {
         <div className= {styles.heroContent}>
 
           <h1 className={styles.heroTitle}>Ylli's <em>{"<Code/>"}</em> Blog</h1>
-          <Link to={"/Blog/"} className = {styles.heroButton}><p>View Blogs</p>          
+          <Link to={"/Blog/"} className = {styles.heroButton}><p>View Blog</p>          
           </Link>
 
         </div>  
