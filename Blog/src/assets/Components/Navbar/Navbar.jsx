@@ -42,7 +42,7 @@ function Navbar () {
           
 
           <ul className={styles.navUl}>
-              <li className={styles.navbarTitle}><p>Ylli's Blog</p></li>
+              <li className={styles.navbarTitle}><Link to={"/"}><p>Ylli's Blog</p></Link></li>
               <li><Link to={"/"} className={styles.navLink}><p>Home</p></Link></li>
               <li><Link to={"/Blog/"} className={styles.navLink}><p>Blog</p></Link></li>
               <li><Link to={"/Website_Inspo/"} className={styles.navLink}><p>Website Inspo</p></Link></li>
