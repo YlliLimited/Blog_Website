@@ -5,14 +5,13 @@ import styles from "./Navbar.module.css"
 function Navbar () {
 
   
-  const [pastY, setPastY] = useState(window.scrollY);
+  let pastY = window.scrollY;
   const navbar = useRef(null);
 
     useEffect(() => {
       window.addEventListener("scroll", () => {
 
         let currentY = window.scrollY;
-        console.log(currentY);
 
         if (currentY > pastY) {
           navbar.current.style.top = "-100px";
@@ -20,22 +19,23 @@ function Navbar () {
           navbar.current.style.top = "0px";
         }
         
-        setPastY(currentY);
+        pastY = currentY;
+        console.log(pastY > currentY ? "false": "true");
     });
 
 
     return(
       window.addEventListener("scroll", () => {
-          console.log(currentY);
-          setCurrentY(window.scrollY);
 
-          if (currentY > pastY) {
-            navbar.current.style.top = "-100px";
-          } else {
-            navbar.current.style.top = "0px";
-          }
-          
-          setPastY(currentY);
+        let currentY = window.scrollY;
+
+        if (currentY > pastY) {
+          navbar.current.style.top = "-100px";
+        } else {
+          navbar.current.style.top = "0px";
+        }
+        
+        pastY = currentY;
         }
       )
     )
