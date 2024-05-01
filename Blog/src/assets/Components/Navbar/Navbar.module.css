@@ -21,8 +21,29 @@
 
   z-index: 20;
 
-  transition: top 0.05s ease-out;
+  transition: top 0.1s ease-out;
 
+}
+
+.navbarTitle p{
+  font-family: "Jersey 15";
+
+  color: var(--secondary-dark-color);
+
+  margin: 0px;
+
+  font-family:'Jersey 15';
+  font-size: clamp(0.8rem, 2.4vw, 2.4rem);
+  letter-spacing: 0px;
+  font-weight: 400;
+
+  position: absolute;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  left: 25px;
 }
 
 .navUl{
@@ -48,8 +69,7 @@
 .navLink{
   text-decoration: none;
 
-  color: var(--primary-dark-color);
-  text-shadow: 0px 0px 0px var(--tertiary-contrast-color);
+  color: var(--secondary-dark-color);
 
   transition: text-shadow 0.15s, color 0.15s;
 }
