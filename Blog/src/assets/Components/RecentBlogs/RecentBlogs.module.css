@@ -21,5 +21,79 @@
 
 .recentBlogsTitle{
   margin: 0px;
+  margin-bottom: 3vw;
   color: var(--primary-light-color);
+  text-align: center;
+}
+
+.cardsParent{
+  width: 100%;
+  height: fit-content;
+
+  margin-top: 2vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.articleCard{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--primary-dark-color);
+
+  border: 4px solid var(--secondary-contrast-color);
+
+  box-shadow: 0.5cqw 0.5cqw 0px var(--primary-light-color), 0cqw 0cqw 0px var(--secondary-contrast-color);
+
+  transition: box-shadow 0.2s ease-in-out, scale 0.1s ease-in;
+}
+
+.articleCard:hover{
+  cursor: pointer;
+
+  box-shadow: 0.3cqw 0.3cqw 0px var(--primary-light-color), 0.6cqw 0.6cqw 0px var(--secondary-contrast-color);
+
+  scale: 0.99;
+}
+
+.articleLink{
+  width: calc(clamp(250px, calc(33% - 2.3cqw), calc(33% - 2.3cqw)) - calc(clamp(15px, 1cqw, 1cqw)  * 2));
+  aspect-ratio: 1;
+
+  margin: 1cqw;
+
+  padding: clamp(15px, 1cqw, 1cqw);
+
+  text-decoration: none;
+  color: var(--primary-light-color);
+}
+
+.articleLogo{
+  width: 30%;
+  height: 30%;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.articleContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.articleTitle{
+  margin: 0px;
+  margin-top: 3cqh;
+
+  line-height: 1;
 }
