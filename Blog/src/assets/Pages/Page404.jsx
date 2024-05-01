@@ -1,8 +1,10 @@
+import Navbar from "../Components/Navbar/Navbar.jsx";
+
 function Page404 () {
   return (
     <>
-    
-      <h1>404 Page Not Found</h1>
+      <Navbar/>    
+      <h1 style={{textAlign: "center", color: "white", marginTop: "10%"}}>404 Page Not Found</h1>
 
     </>
   )

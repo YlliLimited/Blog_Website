@@ -1,5 +1,6 @@
 import styles from "./RecentBlogs.module.css";
 import { Link, Outlet } from "react-router-dom";
+import Article from "../Article/Article";
 
 
 function RecentBlogs () {
@@ -15,47 +16,16 @@ function RecentBlogs () {
 
           <div className={styles.cardsParent}>
 
-
-            <Link to={"/Blog/"} className={styles.articleLink}>  
-              <div className={styles.articleCard}>
-                
-
-                <div className={styles.articleContent}>
-
-                  <img src="/Images/html_logo.svg" alt="Blog Logo Coding" className={styles.articleLogo}/>
-                  <h6 className={styles.articleTitle}>
-                    How to start web development as a beginner?
-                  </h6>
-
-                </div>
-
-
-              </div>
-            </Link>
-            
-
-
-            <Link to={"/Blog/"} className={styles.articleLink}>  
-              <div className={styles.articleCard}>
-
-              <img src="/Images/react_logo.svg" alt="Blog Logo Coding" className={styles.articleLogo}/>
-
-              </div>
-            </Link>
-
-
-            <Link to={"/Blog/"} className={styles.articleLink}>  
-              <div className={styles.articleCard}>
-
-              <img src="/Images/javascript_logo.svg" alt="Blog Logo Coding" className={styles.articleLogo}/>
-
-              </div>
-            </Link>
+            <Article title = {"How to start web development as a beginner?"} logoSrc = {"/Images/html_logo.svg"} link = {"How_to_start_web_development_as_a_beginner"}/>
+            <Article title = {"How to create an accordion with React JS?"} logoSrc = {"/Images/react_logo.svg"} link = {"How_to_create_an_accordion_with_React_JS"}/>
+            <Article title = {"CSS Basics"} logoSrc = {"/Images/css_logo.svg"} link = {"CSS_Basics"}/>
 
           </div>
 
 
       </section>
+
+      <Outlet/>
     
     </>
   )
