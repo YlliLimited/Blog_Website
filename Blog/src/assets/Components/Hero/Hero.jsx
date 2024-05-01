@@ -15,7 +15,7 @@ function Hero () {
 
         </div>  
         
-        <img src="../../../../public/Images/word-cloud.svg" alt="" className={styles.wordCloud}/>
+        <img src="/Images/word-cloud.svg" alt="" className={styles.wordCloud}/>
 
         <div className={styles.wordGlow}></div>
 

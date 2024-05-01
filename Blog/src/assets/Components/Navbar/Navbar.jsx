@@ -5,42 +5,32 @@ import styles from "./Navbar.module.css"
 function Navbar () {
 
   
-  let pastY = window.scrollY;
+  const [pastY, setPastY] = useState(0);
+  const [currentY, setCurrentY] = useState(0);
   const navbar = useRef(null);
 
+
     useEffect(() => {
-      window.addEventListener("scroll", () => {
 
-        let currentY = window.scrollY;
-
+      function hideNavbar () {
+        setCurrentY(window.scrollY);
+  
         if (currentY > pastY) {
           navbar.current.style.top = "-100px";
         } else {
           navbar.current.style.top = "0px";
         }
         
-        pastY = currentY;
-        console.log(pastY > currentY ? "false": "true");
-    });
+        setPastY(currentY);
+      }
 
+      window.addEventListener("scroll", hideNavbar)
 
-    return(
-      window.addEventListener("scroll", () => {
+    return() => {
+      window.removeEventListener("scroll", hideNavbar)
+    };
 
-        let currentY = window.scrollY;
-
-        if (currentY > pastY) {
-          navbar.current.style.top = "-100px";
-        } else {
-          navbar.current.style.top = "0px";
-        }
-        
-        pastY = currentY;
-        }
-      )
-    )
-
-  }, []);
+  }, [currentY]);
 
 
   return (

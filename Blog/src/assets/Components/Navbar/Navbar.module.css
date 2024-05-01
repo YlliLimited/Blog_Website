@@ -19,8 +19,10 @@
 
   border-bottom: 3.5px solid var(--secondary-contrast-color);
 
-
   z-index: 20;
+
+  transition: top 0.05s ease-out;
+
 }
 
 .navUl{
