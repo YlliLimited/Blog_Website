@@ -4,19 +4,19 @@ import styles from "./Footer.module.css";
 function Footer () {
   return (
     <>
+    <div className={styles.footerParent}>
 
-    <div className="footerParent">
+
+      <h5 className={styles.footerTitle}>Ylli's Blog</h5>
 
       <ul className={styles.footerUl}>
         <li className={styles.footerHeader}>
           <h6>Nav</h6>
         </li>
 
-        <li>
-          <Link to={"/"}><p>Home</p></Link>
-        </li>
-        <li><Link to={"/Blog/"}><p>Blog</p></Link></li>
-        <li><Link to={"/Website_Inspo/"}><p>Inspo</p></Link></li>
+        <li><Link to={"/"} className={styles.footerLink}><p>Home</p></Link></li>
+        <li><Link to={"/Blog/"} className={styles.footerLink}><p>Blog</p></Link></li>
+        <li><Link to={"/Website_Inspo/"} className={styles.footerLink}><p>Inspo</p></Link></li>
       </ul>
 
 
@@ -28,10 +28,9 @@ function Footer () {
         </li>
 
         <li>
-          <Link to={"/"}><p>Contact Me</p></Link>
+          <Link to={"/"} className={styles.footerLink}><p>Contact Me</p></Link>
         </li>
-        <li><p>yllkelmendi05@gmail.com</p></li>
-        <li><Link to={"/Website_Inspo/"}><p>Inspo</p></Link></li>
+        <li><small>yllkelmendi05@gmail.com</small></li>
       </ul>
 
 
@@ -39,17 +38,18 @@ function Footer () {
 
       <ul className={styles.footerUl}>
         <li className={styles.footerHeader}>
-          <h6>Nav</h6>
+          <h6>Social</h6>
         </li>
 
         <li>
-          <Link to={"/"}><p>Home</p></Link>
+          <Link to={"/"} className={styles.footerLink}><p>LinkedIn</p></Link>
         </li>
-        <li><Link to={"/Blog/"}><p>Blog</p></Link></li>
-        <li><Link to={"/Website_Inspo/"}><p>Inspo</p></Link></li>
+        <li><Link to={"/"} className={styles.footerLink}><p>Fiverr</p></Link></li>
       </ul>
 
+      
     </div>
+
   
     <Outlet/>
 

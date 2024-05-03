@@ -29,13 +29,20 @@ function Home () {
 
         </section>
         
-        <div style={{width: "100%", height: "1px", position: "relative"}}></div>
       {/* Recent Blogs End */}
 
 
-      {/* Footer */}
+      {/* Main page content */}
+
+      <div className="mainPageContent">
+
+        {/* Footer */}
         <Footer/>
-      {/* Footer End */}
+        {/* Footer End */}
+
+      </div>
+
+      {/* Main page content end */}
 
     </>
   )

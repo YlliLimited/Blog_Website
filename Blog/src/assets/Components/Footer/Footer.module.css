@@ -1,0 +1,40 @@
+.footerParent{
+  width: auto;
+  height: fit-content;
+
+  margin: 0px;
+
+  padding:  clamp(30px, 3vw, 3vw);
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.footerTitle{
+  position: absolute;
+
+  top: clamp(30px, 3vw, 3vw);
+
+  margin: 0px;
+}
+
+.footerUl{
+  margin: clamp(30px, 3vw, 3vw);
+  list-style-type: none;
+
+  color: var(--primary-light-color);
+}
+
+.footerHeader{
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerLink{
+  color: var(--secondary-contrast-color);
+}
+.footerUl li p{
+  color: var(--primary-light-color);
+}

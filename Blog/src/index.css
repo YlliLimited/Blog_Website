@@ -116,6 +116,31 @@ em{
 
 
 
+/* Main Page Content */
+.mainPageContent{
+  margin: 40px 0px 0px 0px;
+
+  position: sticky;
+  top: 0px;
+
+  z-index: 11;
+
+  background-color: var(--primary-dark-color);
+
+  border-top: 4px solid var(--secondary-contrast-color);
+
+  box-shadow: 0px 0px 50px var(--secondary-contrast-color);
+}
+/* Main Page Content End */
+
+
+
+
+
+
+
+
+
 
 
 
