@@ -1,6 +1,7 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Hero from "../Components/Hero/Hero";
 import Article from "../Components/Article/Article";
+import Footer from "../Components/Footer/Footer";
 
 function Home () {
   return (
@@ -15,7 +16,6 @@ function Home () {
       {/* Recent Blogs */}
         <section className={"recentBlogs"}>
 
-
             <h3 className={"recentBlogsTitle"}>Recent Blogs</h3>
 
 
@@ -27,11 +27,15 @@ function Home () {
 
             </div>
 
-            <div style={{width: "100%", height: "1px", position: "relative"}}></div>
-
-
         </section>
+        
+        <div style={{width: "100%", height: "1px", position: "relative"}}></div>
       {/* Recent Blogs End */}
+
+
+      {/* Footer */}
+        <Footer/>
+      {/* Footer End */}
 
     </>
   )
