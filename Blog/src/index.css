@@ -1,5 +1,14 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "Montserrat";
+  src:  
+        url('../public/Fonts/Montserrat-VariableFont_wght.ttf')  format('truetype');
+}
+
+@font-face{
+  font-family: "Montserrat Italic";
+  src: url('../public/Fonts/Montserrat-Italic-VariableFont_wght.ttf');
+}
 
 @font-face {
   font-family: "Jersey 15";
