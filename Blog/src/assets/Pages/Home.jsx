@@ -1,3 +1,4 @@
+import LoadingScreen from "../Components/LoadingScreen/LoadingScreen";
 import Navbar from "../Components/Navbar/Navbar";
 import Hero from "../Components/Hero/Hero";
 import Article from "../Components/Article/Article";
@@ -6,6 +7,12 @@ import Footer from "../Components/Footer/Footer";
 function Home () {
   return (
     <>
+
+      {/* Loading Screen */}
+        <LoadingScreen/>
+      {/* Loading Screen End */}
+
+
 
       {/* Header */}
         <Navbar/>

@@ -53,6 +53,7 @@
 .footerLink{
   color: var(--secondary-contrast-color);
   padding: 0px;
+  text-underline-offset: 5px;
 }
 .footerUl li p{
   color: var(--primary-light-color);

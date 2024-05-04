@@ -71,6 +71,8 @@
 
   color: var(--secondary-dark-color);
 
+  text-underline-offset: 5px;
+
   transition: text-shadow 0.15s, color 0.15s;
 }
 .navLink:hover{
