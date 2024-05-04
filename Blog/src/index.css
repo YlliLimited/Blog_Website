@@ -1,8 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: "Montserrat";
-  src:  
-        url('../public/Fonts/Montserrat-VariableFont_wght.ttf')  format('truetype');
+  src: url('../public/Fonts/Montserrat-VariableFont_wght.ttf')  format('truetype');
 }
 
 @font-face{
@@ -204,3 +203,41 @@ em{
 }
 
 /* Recent Blogs End */
+
+
+
+
+
+
+
+
+/* About Blog */
+
+#aboutBlog{
+  width: calc(100% - clamp(30px, 3vw, 3vw) * 2);
+  height: fit-content;
+
+  color: var(--primary-light-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: clamp(30px, 3vw, 3vw);
+}
+
+#aboutBlog h3{
+  margin: 0px;
+  margin-bottom: clamp(30px, 3vw, 3vw);
+}
+
+#aboutBlog p {
+  max-width: 55ch;
+}
+
+#aboutBlog img{
+  margin-top: clamp(30px, 3vw, 3vw);
+  width: clamp(250px, 25vw, 25vw);
+}
+
+/* About Blog End */

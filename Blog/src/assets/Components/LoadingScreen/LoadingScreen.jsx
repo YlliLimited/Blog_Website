@@ -36,7 +36,7 @@ function LoadingScreen () {
       <div className={styles.loadingScreenBackground} ref={loadingScreen}>
         <div className="loadingScreenContent">
 
-          <img src="/Images/pusheenCoffe.gif" alt="Pusheen drinking coffe gif" className={styles.pusheenGif}/>
+          <img src="/Images/pusheenCoffe.gif" alt="Pusheen cat drinking coffe gif" className={styles.pusheenGif}/>
           <h3 className={styles.loadingTitle}>Loading<em className={styles.loadingDot}>.</em><em className={styles.loadingDot}>.</em><em className={styles.loadingDot}>.</em></h3>
 
         </div>
