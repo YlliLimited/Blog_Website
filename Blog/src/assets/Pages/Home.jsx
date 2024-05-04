@@ -12,6 +12,8 @@ function Home () {
         <Hero/>
       {/* Header End */}
 
+      
+
 
       {/* Recent Blogs */}
         <section className={"recentBlogs"}>
@@ -28,12 +30,12 @@ function Home () {
             </div>
 
         </section>
-        
       {/* Recent Blogs End */}
 
 
-      {/* Main page content */}
 
+
+      {/* Main page content */}
       <div className="mainPageContent">
 
         {/* Footer */}
@@ -41,7 +43,6 @@ function Home () {
         {/* Footer End */}
 
       </div>
-
       {/* Main page content end */}
 
     </>

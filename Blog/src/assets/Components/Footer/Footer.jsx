@@ -52,7 +52,7 @@ function Footer () {
       </div>
 
       <div className={styles.footerCopyright}>
-        <small>&copy; Yll Kelmendi {new Date().getFullYear()}</small>
+        <small>&copy; Yll Kelmendi 2024 - {new Date().getFullYear()}</small>
       </div>
 
     </div>
