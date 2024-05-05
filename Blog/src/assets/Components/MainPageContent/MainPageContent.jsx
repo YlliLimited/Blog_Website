@@ -1,9 +1,13 @@
 import { Suspense, lazy } from "react";
+import { Link, Outlet } from "react-router-dom";
+
 import styles from "./MainPageContent.module.css";
 const Footer = lazy(() => import("../Footer/Footer.jsx"));
 
 export default function MainPageContent() {
   return(
+
+  <>
 
   <Suspense fallback={<h6>Loading...</h6>}>
     <div className={styles.mainPageContent}>
@@ -35,14 +39,32 @@ export default function MainPageContent() {
       {/* About Blog End */}
 
 
+
+
+      {/* Read the blog */}
+
+        <section className={styles.readBlog}>
+          <h4>Have you seen enough?</h4>
+          <Link to={"/Blog/"} className = {styles.readButton}><p>View Blog</p></Link>
+        </section>  
+
+      {/* Read the blog end */}
+
+
+
+
       {/* Footer */}
-      <Footer/>
+        <Footer/>
       {/* Footer End */}
 
 
 
     </div>
   </Suspense>
+
+  <Outlet/>
+
+  </>
 
   )
 }

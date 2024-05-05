@@ -7,6 +7,7 @@ const Home = lazy(() => import("./assets/Pages/Home.jsx"));
 const Blog = lazy(() => import("./assets/Pages/Blog.jsx"));
 const WebsiteInspo = lazy(() => import("./assets/Pages/WebsiteInspo.jsx"));
 const Page404 = lazy(() => import("./assets/Pages/Page404.jsx"));
+const Contact = lazy(() => import("./assets/Pages/Contact.jsx"));
 
 
 
@@ -43,6 +44,12 @@ function App() {
 
               {/* 404 Page */}
               <Route path="*" element={<Page404 />} />
+
+
+
+
+              {/* Contact Page*/}
+              <Route path="Contact/" element={<Contact />}></Route>
 
 
             </Route>

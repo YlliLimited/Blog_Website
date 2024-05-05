@@ -29,7 +29,7 @@ function Footer () {
           </li>
 
           <li>
-            <Link to={"/"} className={styles.footerLink}><p>Contact Me</p></Link>
+            <Link to={"/Contact/"} className={styles.footerLink}><p>Contact Me</p></Link>
           </li>
           <li><small>yllkelmendi05@gmail.com</small></li>
         </ul>
