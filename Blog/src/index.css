@@ -161,7 +161,7 @@ em{
   padding: 0px 8px;
   width: calc(clamp(250px, 40vw, 40vw) + clamp(30px, 3vw, 3vw) + 20px);
 
-  margin-bottom: clamp(20px, 2vw, 2vw);
+  margin-bottom: clamp(30px, 3vw, 3vw);
 
   border: none;
   border-bottom: 2px solid var(--secondary-contrast-color);
