@@ -1,8 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./assets/Pages/Home";
-import Blog from "./assets/Pages/Blog";
-import WebsiteInspo from "./assets/Pages/WebsiteInspo";
-import Page404 from "./assets/Pages/Page404";
+import { Suspense, lazy } from "react";
+
+import LoadingScreen from "./assets/Components/LoadingScreen/LoadingScreen";
+
+const Home = lazy(() => import("./assets/Pages/Home.jsx"));
+const Blog = lazy(() => import("./assets/Pages/Blog.jsx"));
+const WebsiteInspo = lazy(() => import("./assets/Pages/WebsiteInspo.jsx"));
+const Page404 = lazy(() => import("./assets/Pages/Page404.jsx"));
 
 
 
@@ -10,39 +14,44 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
 
-          <Route path="/">
+        <Suspense fallback = {<LoadingScreen/>}>
+
+          <Routes>
+
+            <Route path="/">
 
 
-            <Route index element={<Home />} />
-            <Route path="Home" element={<Home />} />
+              <Route index element={<Home />} />
+              <Route path="Home" element={<Home />} />
 
 
-            
-            {/* Blog Pages Routs */}
-            <Route path="Blog/" element={<Blog />}>
+              
+              {/* Blog Pages Routs */}
+              <Route path="Blog/" element={<Blog />}>
+              </Route>
+
+
+
+
+              {/* Ispo pages routes */}
+              <Route path="Website_Inspo/" element={<WebsiteInspo />}>
+              </Route>
+
+
+
+
+              {/* 404 Page */}
+              <Route path="*" element={<Page404 />} />
+
+
             </Route>
 
 
+          </Routes>
 
-
-            {/* Ispo pages routes */}
-            <Route path="Website_Inspo/" element={<WebsiteInspo />}>
-            </Route>
-
-
-
-
-            {/* 404 Page */}
-            <Route path="*" element={<Page404 />} />
-
-
-          </Route>
-
-
-
-        </Routes>
+        </Suspense>
+        
       </BrowserRouter>
     </>
   )
