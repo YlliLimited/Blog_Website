@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: "Jersey 15";
-  src: url('../public/Fonts/Jersey15-Regular.ttf')  format('truetype');
+  src: url('/Fonts/Jersey15-Regular.ttf')  format('truetype');
 }
 /* Fonts End*/
 
@@ -117,14 +117,111 @@ em{
 
 
 
+
+
 /* Contact */
 
 .formParent{
 
-  width: calc(100% - clamp(30px, 3vw, 3vw) * 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: var(--primary-light-color);
 
   
+  padding: clamp(30px, 3vw, 3vw);
+}
 
+.formFlex{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formFlexChild:first-child{
+  margin-right: clamp(30px, 3vw, 3vw);
+}
+
+.formParent h3{
+  margin: calc(clamp(30px, 10vw, 60px) + clamp(30px, 3vw, 3vw)) 0px clamp(30px, 3vw, 3vw) 0px;
+}
+
+.formParent label {
+  margin: 0px;
+}
+
+.formParent label p {
+  margin: 0px;
+}
+
+.formParent input{
+  height: 40px;
+  padding: 0px 8px;
+  width: calc(clamp(250px, 40vw, 40vw) + clamp(30px, 3vw, 3vw) + 20px);
+
+  margin-bottom: clamp(20px, 2vw, 2vw);
+
+  border: none;
+  border-bottom: 2px solid var(--secondary-contrast-color);
+  color: var(--primary-light-color);
+  background-color: transparent;
+}
+
+.formParent input:focus{
+  outline: 2px solid var(--secondary-contrast-color);
+  outline-offset: -2px;
+}
+
+.formParent textarea{
+  height: 120px;
+  padding: 5px;
+  width: calc(clamp(250px, 40vw, 40vw) + clamp(30px, 3vw, 3vw) + 28px);
+  resize: vertical;
+
+  background-color: transparent;
+  color: var(--primary-light-color);
+  border: 2px solid var(--secondary-contrast-color);
+}
+
+.formParent textarea:focus{
+  outline: none;
+}
+
+.formParent input[type="submit"]{
+  width: 50%;
+  height: fit-content;
+
+  padding: 0.8cqh 0px;
+  background-color: var(--primary-light-color);
+  margin-top: 20px;
+  border: none;
+  color: var(--primary-dark-color);
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1.1rem, 1.5vw, 1.7rem);
+  letter-spacing: 0.2px;
+  font-weight: 400;
+
+  box-shadow: clamp(5px, 0.3cqw, 0.3cqw) clamp(5px, 0.3cqw, 0.3cqw) var(--tertiary-dark-color);
+
+  transition: box-shadow 0.2s;
+}
+
+.formParent input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: clamp(7px, 0.4cqw, 0.4cqw) clamp(7px, 0.4cqw, 0.4cqw) var(--tertiary-dark-color);
+}
+
+.formParent input[type="submit"]:focus{
+  outline: none;
+  border: none;
+  box-shadow: clamp(3px, 0.2cqw, 0.2cqw) clamp(3px, 0.2cqw, 0.2cqw) var(--tertiary-dark-color);
+}
+
+.smallInput{
+  width: clamp(125px, 20vw, 20vw) !important;
 }
 
 /* Contact End */

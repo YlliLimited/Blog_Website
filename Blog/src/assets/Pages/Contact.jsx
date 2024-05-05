@@ -15,7 +15,7 @@ export default function Contact () {
 
       <div className="formParent">
 
-        <h4>Direct Contact</h4>
+        <h3>Direct Contact</h3>
 
         <form
           action="https://formspree.io/f/mwkgyabo"
@@ -25,23 +25,23 @@ export default function Contact () {
 
           <div className="formFlex">
             <div className="formFlexChild">
-              <label htmlFor="firstName">First Name:</label><br />  
-              <input type="text" maxLength={50} name="firstName" required/>
+              <label htmlFor="firstName"><p>First Name:</p></label><br />  
+              <input type="text" maxLength={50} name="firstName" className="smallInput" required/>
             </div>
 
             <div className="formFlexChild">
-              <label htmlFor="lastName">Last Name:</label><br />  
-              <input type="text" maxLength={70} name="lastName" required/>
+              <label htmlFor="lastName"><p>Last Name:</p></label><br />  
+              <input type="text" maxLength={70} name="lastName" className="smallInput" required/>
             </div>
           </div>
 
-          <label htmlFor="email">E-mail:</label><br />
+          <label htmlFor="email"><p>E-mail:</p></label><br />
           <input type="email" maxLength={100} name="email" required/><br />
 
-          <label htmlFor="phone">Phone:</label><br />
+          <label htmlFor="phone"><p>Phone:</p></label><br />
           <input type="tel" maxLength={30} name="phone" placeholder="Optional"/><br />
 
-          <label htmlFor="message">Message:</label><br />
+          <label htmlFor="message"><p>Message:</p></label><br />
           <textarea name="message" maxLength={1000} required></textarea><br />
 
           <input type="submit" value={"Submit"} className="formSubmit"/>
