@@ -1,12 +1,52 @@
-import Navbar from "../Components/Navbar/Navbar";
+import { lazy, useState } from "react";
+import Navbar from "../Components/Navbar/Navbar.jsx";
+const BlogsToLoad = lazy(() => import("../Components/BlogsToLoad/BlogsToLoad.jsx"));
+const Footer = lazy(() => import("../Components/Footer/Footer.jsx"));
+
 
 function Blog () {
+
+  
+  const [blogsToLoad, setBlogsToLoad] = useState("all");
 
   return (
 
     <>
     
       <Navbar/>
+
+
+      <nav>
+        <div className="filteringParent">
+
+          <h6>Filter:</h6>
+
+          <ul>
+            <li>
+              <button className="filteringButton" onClick={() => setBlogsToLoad("all")}>Reset</button>
+            </li>
+
+            <li>
+            <button className="filteringButton" onClick={() => setBlogsToLoad("html")}>HTML</button>
+            </li>
+
+            <li>
+            <button className="filteringButton" onClick={() => setBlogsToLoad("css")}>CSS</button>
+            </li>
+
+            <li>
+            <button className="filteringButton" onClick={() => setBlogsToLoad("javascript")}>JavaScript</button>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <BlogsToLoad toLoad = {blogsToLoad}/>
+
+
+      <Footer />
 
     </>
 
