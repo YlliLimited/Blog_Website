@@ -51,8 +51,6 @@ export default function Contact () {
 
       </div>
 
-      <h3>Other Contacts</h3>
-
 
       <Footer />
       

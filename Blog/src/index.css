@@ -129,6 +129,7 @@ em{
 
   color: var(--primary-light-color);
 
+  background-color: var(--secondary-dark-color);
   
   padding: clamp(30px, 3vw, 3vw);
 }
@@ -204,14 +205,14 @@ em{
   letter-spacing: 0.2px;
   font-weight: 400;
 
-  box-shadow: clamp(5px, 0.3cqw, 0.3cqw) clamp(5px, 0.3cqw, 0.3cqw) var(--tertiary-dark-color);
+  box-shadow: clamp(5px, 0.3cqw, 0.3cqw) clamp(5px, 0.3cqw, 0.3cqw) var(--quantertary-dark-color);
 
   transition: box-shadow 0.2s;
 }
 
 .formParent input[type="submit"]:hover {
   cursor: pointer;
-  box-shadow: clamp(7px, 0.4cqw, 0.4cqw) clamp(7px, 0.4cqw, 0.4cqw) var(--tertiary-dark-color);
+  box-shadow: clamp(7px, 0.4cqw, 0.4cqw) clamp(7px, 0.4cqw, 0.4cqw) var(--quantertary-dark-color);
 }
 
 .formParent input[type="submit"]:focus{
