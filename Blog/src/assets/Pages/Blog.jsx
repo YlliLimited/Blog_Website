@@ -44,6 +44,10 @@ function Blog () {
               <li>
               <button className="filteringButton" onClick={() => setBlogsToLoad("javascript")}>JavaScript</button>
               </li>
+
+              <li>
+              <button className="filteringButton" onClick={() => setBlogsToLoad("react")}>React</button>
+              </li>
             </ul>
 
           </div>

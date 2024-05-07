@@ -3,7 +3,7 @@ import { lazy } from "react";
 const HTML_Blogs = lazy(() => import("../Blogs/HTML_Blogs.jsx"));
 const CSS_Blogs = lazy(() => import("../Blogs/CSS_Blogs.jsx"));
 const JavaScript_Blogs = lazy(() => import("../Blogs/JavaScript_Blogs.jsx"));
-
+const React_Blogs = lazy(() => import("../Blogs/React_Blogs.jsx"));
 
 
 export default function BlogsToLoad(props){
@@ -17,6 +17,7 @@ export default function BlogsToLoad(props){
         <HTML_Blogs/>
         <CSS_Blogs/>
         <JavaScript_Blogs/>
+        <React_Blogs/>
       </>
     )
 
@@ -44,5 +45,11 @@ export default function BlogsToLoad(props){
       </>
     )
 
+  } else if (toLoad === "react"){
+    return(
+      <>
+        <React_Blogs/>
+      </>
+    )
   }
 }
