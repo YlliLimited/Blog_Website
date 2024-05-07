@@ -17,7 +17,7 @@ function Blog () {
 
       <section id="blogsSection">
 
-        <h3 className="allBlogsTitle">ALL BLOGS</h3>
+        <h3 className="allBlogsTitle"><em>- </em>ALL BLOGS<em>-</em></h3>
 
         
 

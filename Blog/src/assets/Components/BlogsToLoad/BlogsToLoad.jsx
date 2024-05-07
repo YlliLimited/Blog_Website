@@ -1,45 +1,22 @@
 import { lazy } from "react";
-import { Link, Outlet } from "react-router-dom";
 
-const Article = lazy(() => import("../Article/Article.jsx"));
+const HTML_Blogs = lazy(() => import("../Blogs/HTML_Blogs.jsx"));
+const CSS_Blogs = lazy(() => import("../Blogs/CSS_Blogs.jsx"));
+const JavaScript_Blogs = lazy(() => import("../Blogs/JavaScript_Blogs.jsx"));
+
+
 
 export default function BlogsToLoad(props){
   const toLoad = props.toLoad;
-
-
-  function HTML_Blogs() {
-    return(
-      <>
-        <Article title="HTML"/>
-        <Article/>
-      </>
-    )
-  }
-
-  function CSS_Blogs() {
-    return(
-      <>
-        <Article title="CSS"/>
-      </>
-    )
-  }
-
-  function JavaScript_Blogs() {
-    return(
-      <>
-
-      </>
-    )
-  }
 
 
   if (toLoad === "all"){
     
     return(
       <>
-        {HTML_Blogs()}
-        {CSS_Blogs()}
-        {JavaScript_Blogs()}
+        <HTML_Blogs/>
+        <CSS_Blogs/>
+        <JavaScript_Blogs/>
       </>
     )
 
@@ -47,7 +24,7 @@ export default function BlogsToLoad(props){
  
     return(
       <>
-        {HTML_Blogs()}
+        <HTML_Blogs/>
       </>
     )
 
@@ -55,7 +32,7 @@ export default function BlogsToLoad(props){
  
     return(
       <>
-        {CSS_Blogs()}
+        <CSS_Blogs/>
       </>
     )
 
@@ -63,7 +40,7 @@ export default function BlogsToLoad(props){
  
     return(
       <>
-        {JavaScript_Blogs()}
+        <JavaScript_Blogs/>
       </>
     )
 
