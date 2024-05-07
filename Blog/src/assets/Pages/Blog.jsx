@@ -15,35 +15,50 @@ function Blog () {
     
       <Navbar/>
 
+      <section id="blogsSection">
 
-      <nav>
-        <div className="filteringParent">
+        <h3 className="allBlogsTitle">ALL BLOGS</h3>
 
-          <h6>Filter:</h6>
+        
 
-          <ul>
-            <li>
-              <button className="filteringButton" onClick={() => setBlogsToLoad("all")}>Reset</button>
-            </li>
+        <hr className="blogsHr"/>
 
-            <li>
-            <button className="filteringButton" onClick={() => setBlogsToLoad("html")}>HTML</button>
-            </li>
+        <nav>
+          <div className="filteringParent">
 
-            <li>
-            <button className="filteringButton" onClick={() => setBlogsToLoad("css")}>CSS</button>
-            </li>
+            <h6>Filter:</h6>
 
-            <li>
-            <button className="filteringButton" onClick={() => setBlogsToLoad("javascript")}>JavaScript</button>
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <button className="filteringButton1" onClick={() => setBlogsToLoad("all")}>Reset</button>
+              </li>
+
+              <li>
+              <button className="filteringButton" onClick={() => setBlogsToLoad("html")}>HTML</button>
+              </li>
+
+              <li>
+              <button className="filteringButton" onClick={() => setBlogsToLoad("css")}>CSS</button>
+              </li>
+
+              <li>
+              <button className="filteringButton" onClick={() => setBlogsToLoad("javascript")}>JavaScript</button>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+
+        <hr className="blogsHr"/>
+
+
+        <div className="articlesParent">
+
+        <BlogsToLoad toLoad = {blogsToLoad}/>
 
         </div>
-      </nav>
 
-
-      <BlogsToLoad toLoad = {blogsToLoad}/>
+      </section>
 
 
       <Footer />
