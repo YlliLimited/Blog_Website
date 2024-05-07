@@ -1,4 +1,6 @@
 import { lazy, useState } from "react";
+import { Helmet } from "react-helmet";
+
 import Navbar from "../Components/Navbar/Navbar.jsx";
 const BlogsToLoad = lazy(() => import("../Components/BlogsToLoad/BlogsToLoad.jsx"));
 const Footer = lazy(() => import("../Components/Footer/Footer.jsx"));
@@ -12,6 +14,16 @@ function Blog () {
   return (
 
     <>
+
+      {/* Metadata */}
+      <Helmet>
+        <title>Ylli's Code Blog - Blog</title>
+
+        <meta description = "Free web development and coding tutorials, blogs and articles. The technologies used include: HTML, CSS, JavaScript, TypeScript, React JS, PHP, MySql" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, TypeScript, React JS, PHP, MySql, Coding, Programming, Blog, Tutorial, Yll Kelmendi, Ylli's Blog, Design, Web Development, Frontend, Backend, Fullstack, SEO, UI, UX" />
+        <meta name="author" content="Yll Kelmendi" />
+      </Helmet>
+      {/* Metadata End */}
     
       <Navbar/>
 
@@ -47,6 +59,10 @@ function Blog () {
 
               <li>
               <button className="filteringButton" onClick={() => setBlogsToLoad("react")}>React</button>
+              </li>
+
+              <li>
+              <button className="filteringButton" onClick={() => setBlogsToLoad("other")}>Other</button>
               </li>
             </ul>
 

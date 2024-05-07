@@ -1,4 +1,5 @@
 import { Suspense, lazy } from "react";
+import { Helmet } from "react-helmet";
 import Navbar from "../Components/Navbar/Navbar.jsx";
 const Footer = lazy(() => import("../Components/Footer/Footer.jsx"))
 
@@ -7,6 +8,16 @@ const Footer = lazy(() => import("../Components/Footer/Footer.jsx"))
 export default function Contact () {
   return (
     <>
+
+    {/* Metadata */}
+    <Helmet>
+      <title>Ylli's Code Blog - Contact</title>
+
+      <meta description = "Contact Yll Kelmendi through direct contact" />
+      <meta name="keywords" content="HTML, CSS, JavaScript, TypeScript, React JS, PHP, MySql, Coding, Programming, Blog, Tutorial, Yll Kelmendi, Ylli's Blog, Design, Web Development, Frontend, Backend, Fullstack, SEO, UI, UX, Contact, Direct Contact" />
+      <meta name="author" content="Yll Kelmendi" />
+    </Helmet>
+    {/* Metadata End */}
 
     <Suspense fallback={<h4>Loading...</h4>}>
     
