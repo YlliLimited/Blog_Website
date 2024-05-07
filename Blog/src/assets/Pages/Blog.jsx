@@ -17,7 +17,7 @@ function Blog () {
 
       <section id="blogsSection">
 
-        <h3 className="allBlogsTitle"><em>- </em>ALL BLOGS<em>-</em></h3>
+        <h3 className="allBlogsTitle"><em>- </em>ALL BLOGS<em> -</em></h3>
 
         
 
@@ -54,7 +54,7 @@ function Blog () {
 
         <div className="articlesParent">
 
-        <BlogsToLoad toLoad = {blogsToLoad}/>
+          <BlogsToLoad toLoad = {blogsToLoad}/>
 
         </div>
 
