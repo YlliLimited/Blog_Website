@@ -1,6 +1,9 @@
 import { Helmet } from "react-helmet";
+import { lazy } from "react";
 
 import Navbar from "../Components/Navbar/Navbar";
+const Footer = lazy(() => import("../Components/Footer/Footer.jsx"));
+
 
 function WebsiteInspo () {
 
@@ -20,7 +23,26 @@ function WebsiteInspo () {
     
       <Navbar/>
 
-      Website Inspo
+      
+
+        <h3 className="inspoHeader"><em>- </em>Website Ispo<em> -</em></h3>
+
+        <section id="inspoSection">
+          <div className="inspoTitle" style={{color: "white", backgroundColor: "black"}}>
+            <h4>Apple</h4>
+            <img src="/Images/apple_logo.svg" alt="Apple Logo svg" loading="lazy"/>
+          </div>
+
+          <div className="inspoBody">  
+            <a href="https://apple.com" target="_blank">
+              <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" className="inspoScreenshot"/>
+            </a>
+          </div>
+        </section>
+
+
+
+      <Footer/>
 
     </>
 

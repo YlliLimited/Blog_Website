@@ -19,6 +19,7 @@ export default function BlogsToLoad(props){
         <CSS_Blogs/>
         <JavaScript_Blogs/>
         <React_Blogs/>
+        <Other_Blogs/>
       </>
     )
 
@@ -55,7 +56,7 @@ export default function BlogsToLoad(props){
   } else if (toLoad === "other"){
     return(
       <>
-        <Other_Blogs/>
+        <Other_Blogs/>  
       </>
     )
   }
