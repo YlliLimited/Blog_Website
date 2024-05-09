@@ -42,7 +42,7 @@ function WebsiteInspo () {
           <div className="inspoBody" style={{backgroundColor: "white", color: "black"}}>  
             <a href="https://www.apple.com" target="_blank">
               <h3 className="inspoViewWebsite">Visit Website</h3>
-              <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" loading="lazy" className="inspoScreenshot"/>
+              <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" className="inspoScreenshot"/>
             </a>
           </div>
         </section>

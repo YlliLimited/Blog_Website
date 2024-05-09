@@ -9,6 +9,8 @@ const WebsiteInspo = lazy(() => import("./assets/Pages/WebsiteInspo.jsx"));
 const Page404 = lazy(() => import("./assets/Pages/Page404.jsx"));
 const Contact = lazy(() => import("./assets/Pages/Contact.jsx"));
 
+const HTSWDAAB = lazy(() => import("./assets/Pages/Other_Blogs/How_To_Start_Web_Development_as_a_beginner.jsx"));
+
 
 
 function App() {
@@ -29,14 +31,19 @@ function App() {
 
               
               {/* Blog Pages Routs */}
-              <Route path="Blog/" element={<Blog />}>
+              <Route path="Blog/">
+                <Route index element={<Blog />} />
+                <Route path="Blog" element={<Blog />} />
+                <Route path="How_to_start_web_development_as_a_beginner/" element={<HTSWDAAB/>}/>
               </Route>
 
 
 
 
               {/* Ispo pages routes */}
-              <Route path="Website_Inspo/" element={<WebsiteInspo />}>
+              <Route path="Website_Inspo/">
+                <Route index element={<WebsiteInspo />} />
+                <Route path="Website_Inspo" element={<WebsiteInspo />} />
               </Route>
 
 
