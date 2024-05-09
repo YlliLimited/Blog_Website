@@ -3,6 +3,7 @@ import { lazy } from "react";
 
 import Navbar from "../Components/Navbar/Navbar";
 const Footer = lazy(() => import("../Components/Footer/Footer.jsx"));
+const ThreeLines = lazy(() => import("../Components/ThreeLines/ThreeLines.jsx"));
 
 
 function WebsiteInspo () {
@@ -35,7 +36,7 @@ function WebsiteInspo () {
           </div>
 
           <div className="inspoBody" style={{backgroundColor: "white", color: "black"}}>  
-            <a href="https://apple.com" target="_blank">
+            <a href="https://www.apple.com" target="_blank">
               <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" loading="lazy" className="inspoScreenshot"/>
             </a>
           </div>
@@ -44,11 +45,7 @@ function WebsiteInspo () {
 
 
 
-        <div className="threeLinesParent">
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </div>
+        <ThreeLines/>
 
 
 
@@ -66,6 +63,26 @@ function WebsiteInspo () {
           </div>
         </section>
         {/* Tesla Cybertruck End */}
+
+
+
+        <ThreeLines/>
+
+
+        {/* Notion */}
+        <section id="inspoSection">
+          <div className="inspoTitle" style={{backgroundColor: "white", color: "black"}}>
+            <h4>Notion</h4>
+            <img src="/Images/notion_logo.svg" alt="Notion Logo svg" loading="lazy"/>
+          </div>
+
+          <div className="inspoBody" style={{backgroundColor: "black", color: "white"}}>  
+            <a href="https://www.notion.so" target="_blank">
+              <img src="/Images/notionScreenshot.png" alt="Notion Website Header" className="inspoScreenshot" loading="lazy"/>
+            </a>
+          </div>
+        </section>
+        {/* Notion End */}
 
 
 
