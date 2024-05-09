@@ -75,6 +75,30 @@ function WebsiteInspo () {
         <ThreeLines/>
 
 
+        
+        {/* OrangeYouGlad */}
+        <section id="inspoSection">
+          <div className="inspoTitle" style={{backgroundColor: "#FD6115", color: "white"}}>
+            <h4>OrangeYouGlad</h4>
+            <img src="/Images/orangeYouGlad_logo.jpg" alt="OrangeYouGlad Logo svg" loading="lazy"/>
+          </div>
+
+          <div className="inspoBody" style={{backgroundColor: "white", color: "white"}}>  
+            <a href="https://www.orangeyouglad.com/" target="_blank">
+              <h3 className="inspoViewWebsite">Go To Website</h3>
+              <img src="/Images/orangeYouGladScreenshot.png" alt="OrangeYouGlad Website Header" className="inspoScreenshot" loading="lazy"/>
+            </a>
+          </div>
+        </section>
+        {/* OrangeYouGlad End */}
+
+
+
+
+        <ThreeLines/>
+
+
+
         {/* Notion */}
         <section id="inspoSection">
           <div className="inspoTitle" style={{backgroundColor: "white", color: "black"}}>

@@ -7,7 +7,7 @@
   width: none;
   height: 30vh;
 
-  margin: clamp(90px, 9vw, 9vw) clamp(20px, 2vw, 2vw);
+  margin: clamp(50px, 9vw, 9vw) clamp(15px, 2vw, 2vw);
 
   border: 0.5px solid var(--secondary-contrast-color);
 
