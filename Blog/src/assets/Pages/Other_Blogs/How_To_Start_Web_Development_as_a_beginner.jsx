@@ -7,11 +7,15 @@ const ArticleChapterBar = lazy(() => import("../../Components/ArticleChapterBar/
 export default () => {
   return(
     <>
-      <Navbar/>
+      <Navbar hide="false"/>
 
       <ArticleChapterBar/>
 
-      <Footer />
+      <div className="articleBody">
+
+        <Footer />
+      </div>
+
     </>
   )
 }

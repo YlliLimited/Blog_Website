@@ -2,35 +2,36 @@ import { useEffect, useState, useRef } from "react";
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Navbar.module.css"
 
-function Navbar () {
-
-  
-  const [pastY, setPastY] = useState(0);
-  const [currentY, setCurrentY] = useState(0);
+function Navbar (props) {
   const navbar = useRef(null);
 
+  if (!props) {
+    const [pastY, setPastY] = useState(0);
+    const [currentY, setCurrentY] = useState(0);
 
-    useEffect(() => {
 
-      function hideNavbar () {
-        setCurrentY(window.scrollY);
-  
-        if (currentY > pastY) {
-          navbar.current.style.top = "-100px";
-        } else {
-          navbar.current.style.top = "0px";
+      useEffect(() => {
+
+        function hideNavbar () {
+          setCurrentY(window.scrollY);
+    
+          if (currentY > pastY) {
+            navbar.current.style.top = "-100px";
+          } else {
+            navbar.current.style.top = "0px";
+          }
+          
+          setPastY(currentY);
         }
-        
-        setPastY(currentY);
-      }
 
-      window.addEventListener("scroll", hideNavbar)
+        window.addEventListener("scroll", hideNavbar)
 
-    return() => {
-      window.removeEventListener("scroll", hideNavbar)
-    };
+      return() => {
+        window.removeEventListener("scroll", hideNavbar)
+      };
 
-  }, [currentY]);
+    }, [currentY]);
+  }
 
 
   return (

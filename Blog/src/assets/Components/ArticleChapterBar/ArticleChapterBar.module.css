@@ -1,0 +1,23 @@
+.articleBar{
+  position: fixed;
+
+  top: calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px));
+  left: 0px;
+
+  height: 100vh;
+  width: clamp(100px, 10vw, 10vw);
+
+  padding: clamp(30px, 3vw, 3vw);
+
+  display: flex;
+  justify-content: center;
+
+  background-color: var(--secondary-dark-color);
+  z-index: 5;
+
+  color: var(--primary-light-color);
+}
+
+.articleBar h6{
+  margin: 0px;
+}
