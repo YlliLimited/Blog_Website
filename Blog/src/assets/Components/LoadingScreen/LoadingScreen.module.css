@@ -15,11 +15,6 @@
   justify-content: center;
 }
 
-.pusheenGif{
-  width: 20vw;
-  margin-top: 10%;
-}
-
 .loadingTitle{
   color: var(--secondary-contrast-color);
   margin: 0px;

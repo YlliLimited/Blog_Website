@@ -41,7 +41,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "white", color: "black"}}>  
             <a href="https://www.apple.com" target="_blank">
-              <h3 className="inspoViewWebsite">Go To Website</h3>
+              <h3 className="inspoViewWebsite">Visit Website</h3>
               <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" loading="lazy" className="inspoScreenshot"/>
             </a>
           </div>
@@ -63,7 +63,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "black", color: "white"}}>  
             <a href="https://www.tesla.com/cybertruck" target="_blank">
-              <h3 className="inspoViewWebsite">Go To Website</h3>
+              <h3 className="inspoViewWebsite">Visit Website</h3>
               <img src="/Images/cybertruckScreenshot.png" alt="Tesla Cybertruck Website Header" className="inspoScreenshot" loading="lazy"/>
             </a>
           </div>
@@ -85,7 +85,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "white", color: "white"}}>  
             <a href="https://www.orangeyouglad.com/" target="_blank">
-              <h3 className="inspoViewWebsite">Go To Website</h3>
+              <h3 className="inspoViewWebsite">Visit Website</h3>
               <img src="/Images/orangeYouGladScreenshot.png" alt="OrangeYouGlad Website Header" className="inspoScreenshot" loading="lazy"/>
             </a>
           </div>
@@ -108,7 +108,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "black", color: "white"}}>  
             <a href="https://www.notion.so" target="_blank">
-              <h3 className="inspoViewWebsite">Go To Website</h3>
+              <h3 className="inspoViewWebsite">Visit Website</h3>
               <img src="/Images/notionScreenshot.png" alt="Notion Website Header" className="inspoScreenshot" loading="lazy"/>
             </a>
           </div>

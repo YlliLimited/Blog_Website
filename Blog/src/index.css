@@ -521,7 +521,7 @@ em{
 
 .inspoBody a:hover .inspoScreenshot{
   transform: scale(0.98);
-  filter: brightness(0.7);
+  filter: brightness(0.6);
 }
 
 .inspoBody a:hover .inspoViewWebsite{
@@ -542,7 +542,7 @@ em{
   z-index: 2;
 
   text-decoration: none;
-  text-shadow: 0px 0px 50px var(--primary-dark-color);
+  text-shadow: 0px 0px 100px var(--primary-dark-color), 0.2cqw 0.2cqw 0px var(--secondary-contrast-color);
 
   color: var(--primary-light-color);
 
