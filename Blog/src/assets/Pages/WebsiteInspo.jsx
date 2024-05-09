@@ -36,7 +36,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "white", color: "black"}}>  
             <a href="https://apple.com" target="_blank">
-              <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" className="inspoScreenshot"/>
+              <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" loading="lazy" className="inspoScreenshot"/>
             </a>
           </div>
         </section>
@@ -61,7 +61,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "black", color: "white"}}>  
             <a href="https://www.tesla.com/cybertruck" target="_blank">
-              <img src="/Images/cybertruckScreenshot.png" alt="Tesla Cybertruck Website Header" className="inspoScreenshot"/>
+              <img src="/Images/cybertruckScreenshot.png" alt="Tesla Cybertruck Website Header" className="inspoScreenshot" loading="lazy"/>
             </a>
           </div>
         </section>

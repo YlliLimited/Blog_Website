@@ -1,5 +1,5 @@
 .navbar{
-  width: calc(100% - 50px);
+  width: 100%;
   height: clamp(30px, 10vw, 60px);
 
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 
-  padding: 15px 25px;
+  padding: clamp(10px, 2vw, 15px) clamp(18px, 3vw, 25px);
 
   background-color: var(--primary-light-color);
 
