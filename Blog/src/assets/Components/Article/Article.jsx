@@ -17,7 +17,7 @@ function Article (props) {
 
           <div className={styles.articleContent}>
 
-            <img src={logoSrc} alt="Blog Logo Coding" className={styles.articleLogo}/>
+            <img src={`/Images/${logoSrc}`} alt="Blog Logo Coding" className={styles.articleLogo}/>
             <h6 className={styles.articleTitle}>
               {title}
             </h6>

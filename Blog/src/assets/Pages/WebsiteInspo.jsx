@@ -17,7 +17,7 @@ function WebsiteInspo () {
         <title>Ylli's Code Blog - Website Inspo</title>
 
         <meta description = "Free web development and coding tutorials, blogs and articles. The technologies used include: HTML, CSS, JavaScript, TypeScript, React JS, PHP, MySql" />
-        <meta name="keywords" content="HTML, CSS, JavaScript, TypeScript, React JS, PHP, MySql, Coding, Programming, Blog, Tutorial, Yll Kelmendi, Ylli's Blog, Design, Web Development, Frontend, Backend, Fullstack, SEO, UI, UX, Inspiration, Inspo" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, TypeScript, React JS, PHP, MySql, Coding, Programming, Blog, Tutorial, Yll Kelmendi, Ylli's Blog, Design, Web Development, Frontend, Backend, Fullstack, SEO, UI, UX, Inspiration, Inspo, Minimalistic" />
         <meta name="author" content="Yll Kelmendi" />
       </Helmet>
       {/* Metadata End */}
@@ -28,6 +28,10 @@ function WebsiteInspo () {
 
         <h3 className="inspoHeader"><em>- </em>Website Ispo<em> -</em></h3>
 
+        <p className="inspoDescription">
+          In this page you will find a curated list of websites that I <em>love</em>, so you can get inspired by their <em>incredible design</em>. You will find a <em>wide array of websites</em> ranging from tech websites to E-commerce websites and beyond.
+        </p>
+
         {/* Apple */}
         <section id="inspoSection">
           <div className="inspoTitle" style={{backgroundColor: "black", color: "white"}}>
@@ -37,6 +41,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "white", color: "black"}}>  
             <a href="https://www.apple.com" target="_blank">
+              <h3 className="inspoViewWebsite">Go To Website</h3>
               <img src="/Images/appleScreenshot.png" alt="Apple Iphone 15 Pro website header" loading="lazy" className="inspoScreenshot"/>
             </a>
           </div>
@@ -58,6 +63,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "black", color: "white"}}>  
             <a href="https://www.tesla.com/cybertruck" target="_blank">
+              <h3 className="inspoViewWebsite">Go To Website</h3>
               <img src="/Images/cybertruckScreenshot.png" alt="Tesla Cybertruck Website Header" className="inspoScreenshot" loading="lazy"/>
             </a>
           </div>
@@ -78,6 +84,7 @@ function WebsiteInspo () {
 
           <div className="inspoBody" style={{backgroundColor: "black", color: "white"}}>  
             <a href="https://www.notion.so" target="_blank">
+              <h3 className="inspoViewWebsite">Go To Website</h3>
               <img src="/Images/notionScreenshot.png" alt="Notion Website Header" className="inspoScreenshot" loading="lazy"/>
             </a>
           </div>
