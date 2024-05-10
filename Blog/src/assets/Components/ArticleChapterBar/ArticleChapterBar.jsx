@@ -8,8 +8,8 @@ export default function ArticleChapterBar (props) {
 
   return (
     <>
-      <aside className={styles.articleBar}>
-        <div>
+      <aside>
+        <div className={styles.articleBar}>
 
 
 
@@ -21,8 +21,6 @@ export default function ArticleChapterBar (props) {
 
             {chapters.map((chapter) => {
 
-              const subchapters = chapter.subchapters;
-
               return (
               <>
 
@@ -32,7 +30,7 @@ export default function ArticleChapterBar (props) {
                   <ul className={styles.subChapterUl}>
                     {
                       
-                      subchapters.map((sub) => {
+                      chapter.subchapters.map((sub) => {
                         return (
                           <li key={sub.name}><a href={sub.href}><span className="smaller">{sub.name}</span></a></li>
                         )
@@ -42,6 +40,7 @@ export default function ArticleChapterBar (props) {
                   </ul>
                 
                 </li>
+
 
 
               </>
