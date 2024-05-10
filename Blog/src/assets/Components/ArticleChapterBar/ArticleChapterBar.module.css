@@ -10,7 +10,8 @@
   padding: clamp(30px, 3vw, 3vw);
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
   background-color: var(--secondary-dark-color);
   z-index: 5;
@@ -20,4 +21,25 @@
 
 .articleBar h6{
   margin: 0px;
+}
+
+.chapterOl{
+  align-self: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+
+.chapterOl li{
+  margin: 1cqw 0px;
+}
+
+.chapterOl li a{
+  color: var(--primary-light-color);
+  text-decoration-color: var(--secondary-contrast-color);
+  text-underline-offset: 4px;
+}
+
+.chaptersHr{
+  width: 100%;
+  margin: clamp(20px, 2vw, 2vw) 0px;
 }
