@@ -1,3 +1,7 @@
+.aside{
+  position: relative;
+}
+
 .articleBar{
   position: fixed;
 
@@ -19,6 +23,8 @@
   color: var(--primary-light-color);
 
   overflow: auto;
+
+  transition: left 0.2s ease-out;
 }
 
 .articleBar::-webkit-scrollbar{
@@ -48,4 +54,26 @@
 .chaptersHr{
   width: 100%;
   margin: clamp(20px, 2vw, 2vw) 0px;
+}
+
+.subChapterUl{
+  list-style-type: none;
+}
+
+.chaptersClose{
+  position: absolute;
+  top: clamp(18px, 1.8vw, 1.8vw);
+  left: calc(clamp(100px, 10vw, 10vw) + clamp(45px, 4.2vw, 4.2vw));
+
+  background-color: transparent;
+  border: none;
+  color: var(--primary-light-color);
+}
+
+.chaptersClose small{
+  font-weight: 100;
+}
+
+.chaptersClose:hover{
+  cursor: pointer;
 }

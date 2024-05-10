@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css"
 function Navbar (props) {
   const navbar = useRef(null);
 
-  if (!props) {
+  if (props.hide !== "false") {
     const [pastY, setPastY] = useState(0);
     const [currentY, setCurrentY] = useState(0);
 

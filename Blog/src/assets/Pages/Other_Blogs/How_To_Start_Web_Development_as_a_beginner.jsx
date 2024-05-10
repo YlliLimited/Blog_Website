@@ -56,7 +56,7 @@ export default () => {
 
       ]}/>
 
-      <div className="articleBody">
+      <div id="articleBody">
 
         <Footer />
       </div>

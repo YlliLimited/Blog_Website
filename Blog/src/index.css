@@ -573,9 +573,9 @@ em{
 
 /* Article */
 
-.articleBody{
+#articleBody{
   margin-top: calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px));
-  margin-left: calc(clamp(100px, 10vw, 10vw) + clamp(30px, 3vw, 3vw) * 2);
+  margin-left: clamp(21px, 2.1vw, 2.1vw);
 }
 
 /* Article End */
