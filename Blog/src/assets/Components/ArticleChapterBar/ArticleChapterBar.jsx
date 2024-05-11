@@ -6,7 +6,7 @@ export default function ArticleChapterBar (props) {
 
   const chapters = props.chapters;
   const chapterBar = useRef(null);
-  const [chapterBarStatus, setChapterBarStatus] = useState("opened");
+  const [chapterBarStatus, setChapterBarStatus] = useState("closed");
 
   function toggleChaptersBar() {
     if (chapterBarStatus === "opened") {
@@ -24,8 +24,7 @@ export default function ArticleChapterBar (props) {
       <aside className={styles.aside}>
         <div className={styles.articleBar} ref={chapterBar}>
 
-
-
+          
         <h6>Chapters</h6>
 
           <hr className={styles.chaptersHr}/>
@@ -65,8 +64,6 @@ export default function ArticleChapterBar (props) {
             })}
 
           </ol>
-
-
 
 
         </div>

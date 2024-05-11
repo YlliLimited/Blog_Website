@@ -58,6 +58,19 @@ export default () => {
 
       <div id="articleBody">
 
+        <img src="/Images/webDev_logo.svg" alt="Simple coding icon with HTML tags" className="articleIcon"/>
+
+        <h4 className="articleHeader">
+          How to start Web Development as a beginner?
+        </h4>
+
+        <hr className="articleHeaderHrTop"/>
+          <div className="articleInfoParent">
+            <h6>11.05.2024</h6>
+            <h6>Yll Kelmendi</h6>
+          </div>
+        <hr className="articleHeaderHrBottom"/>
+
         <Footer />
       </div>
 
