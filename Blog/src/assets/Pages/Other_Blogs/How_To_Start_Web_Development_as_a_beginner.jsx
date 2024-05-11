@@ -90,11 +90,12 @@ export default () => {
 
           <section id="introduction" className="articleContent">
             <h5>Introduction</h5>
+            <hr className="articleContentHr"/>
             <p className="articleP">
               Web Development is one of the <em>largest branches</em> of programming, and this is the
               reason why it can be very <em>confusing</em> for developers to get into it. But it doesn't have
               to be that way. <br/>
-              In this article, we will go through the <em>whole path to becoming a web developer </em>
+              In this article, we will go through the <em>whole path to becoming a web developer, </em>
               in this market where we have got hundreds of different paths that we can take to 
               achieve similar results. <br/>
             </p>
@@ -104,6 +105,7 @@ export default () => {
 
           <section id="web_development_basics" className="articleContent">
             <h5>Web Development Basics</h5>
+            <hr className="articleContentHr"/>
             <p className="articleP">
               Just like in any field of knowledge, so in web development, you need to have a very solid understanding
               of the basics. <br/>
@@ -125,6 +127,7 @@ export default () => {
 
           <section id="html" className="articleContent">
             <h5>Step 1: HTML</h5>
+            <hr className="articleContentHr"/>
             <p className="articleP">
 
               HTML is a <em>markup language</em> that is used to display content such as text, images,
@@ -134,17 +137,31 @@ export default () => {
               JavaScript and PHP to produce more powerful and more complex websites. <br />
 
               <h6>Learning Resources:</h6>
-              There are a wide variety of resources available where you can learn HTML, but I will list
+              There are a wide variety of resources available where to learn HTML, but I will list
               some of them below:
               <ul className="articleUl">
-                <li><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett</li>
-                <li><em>Vide:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=HD13eq_Pmp8" className="articleLink">Learn HTML in 1 hour</a></li>
+                <li><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett <em>(recommended)</em></li>
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=HD13eq_Pmp8" className="articleLink">Learn HTML in 1 hour</a></li>
                 <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/html/default.asp" className="articleLink"> W3Schools HTML tutorial</a></li>
               </ul>
 
               <div className="articleNote">
-                <em>Note:</em>&nbsp; There are many more resources avaliable where you can learn more about HTML, but
+                <em>Note:</em>&nbsp; There are many more resources avaliable to learn more about HTML, but
                 I've listed some that I have personally used before.
+              </div>
+
+              <h6>Project Ideas:</h6>
+              <ul className="articleUl">
+                <li>Article page</li>
+                <li>YouTube copy</li>
+                <li>Wikipedia copy</li>
+                <li>Dentist website</li>
+                <li>Resume/CV website</li>
+              </ul>
+
+              <div className="articleNote">
+                <em>Note:&nbsp;</em> Try to use as many different HTML tags as possible
+                while creating these projects so that you can practice all the tags that you know.
               </div>
               
             </p>

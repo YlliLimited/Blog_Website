@@ -637,12 +637,13 @@ em{
 
 .articleContent h5{
   margin: 0px;
-  margin-top: clamp(60px, 6vw, 6vw);
+  margin-top: clamp(90px, 9vw, 9vw);
 }
 
 .articleContent h6{
   margin: 0px;
-  margin-top: var(--standard-padding);
+  margin-top: calc(var(--standard-padding) * 2);
+  margin-bottom: var(--standard-padding);
 }
 
 .articleUl{
@@ -662,6 +663,13 @@ em{
   background-color: var(--secondary-dark-color);
   padding: clamp(20px, 2vw, 2vw);
 
+  margin: var(--standard-padding) 0px;
+
+  border-left: 4px solid var(--secondary-contrast-color);
+}
+
+.articleContentHr{
+  border-color: var(--secondary-contrast-color);
   margin: var(--standard-padding) 0px;
 }
 
