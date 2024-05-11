@@ -71,6 +71,36 @@ export default () => {
           </div>
         <hr className="articleHeaderHrBottom"/>
 
+
+
+
+
+
+
+        <div className="articleContentParent">
+
+
+
+
+          <div className="articleContent">
+            <h5>Introduction</h5>
+            <p className="articleP">
+              Web Development is one of the largest branches of programming, and this is the
+              reason why it can be very confusing for developers to get into it.
+            </p>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
         <Footer />
       </div>
 

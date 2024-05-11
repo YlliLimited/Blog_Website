@@ -70,6 +70,10 @@
   background-color: transparent;
   border: none;
   color: var(--primary-light-color);
+
+  transform: rotate(-90deg);
+
+  transition:  transform 0.2s ease-out;
 }
 
 .chaptersClose small{

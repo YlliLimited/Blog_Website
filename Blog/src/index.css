@@ -46,42 +46,42 @@ body, html{
 h1{
   font-family:'Jersey 15', sans-serif;
   font-size: clamp(3.2rem, 8vw, 10rem);
-  line-height: 1.1;
+  line-height: 0.8;
   letter-spacing: -1px;
   font-weight: 200;
 }
 h2{
   font-family:'Jersey 15', sans-serif;
   font-size: clamp(2.8rem, 7.8vw, 8.8rem);
-  line-height: 1.1;
+  line-height: 0.8;
   letter-spacing: -0.8px;
   font-weight: 200;
 }
 h3{
   font-family:'Jersey 15', sans-serif;
   font-size: clamp(2.4rem, 6.6vw, 7.6rem);
-  line-height: 1.15;
+  line-height: 0.9;
   letter-spacing: -0.6px;
   font-weight: 200;
 }
 h4{
   font-family:'Jersey 15', sans-serif;
   font-size: clamp(2rem, 5.4vw, 6.4rem);
-  line-height: 1.15;
+  line-height: 0.9;
   letter-spacing: -0.4px;
   font-weight: 200;
 }
 h5{
   font-family:'Jersey 15', sans-serif;
   font-size: clamp(1.6rem, 4.2vw, 5.2rem);
-  line-height: 1.2;
+  line-height: 0.95;
   letter-spacing: -0.2px;
   font-weight: 200;
 }
 h6{
   font-family:'Jersey 15', sans-serif;
   font-size: clamp(1.3rem, 3vw, 3rem);
-  line-height: 1.2;
+  line-height: 0.95;
   letter-spacing: 0px;
   font-weight: 200;
 }
@@ -617,5 +617,23 @@ em{
 .articleInfoParent h6{
   margin: 0px;
 }
+
+.articleContentParent{
+  margin: 0px clamp(90px, 9vw, 9vw);
+  color: var(--primary-light-color);
+
+  display: flex;
+  justify-content: center;
+}
+
+.articleContent p{
+  min-width: auto;
+  max-width: 70ch;
+}
+
+.articleContent h5{
+  margin: 0px;
+}
+
 
 /* Article End */
