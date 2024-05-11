@@ -8,10 +8,10 @@
   top: calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px));
   left: calc(0px - calc(clamp(100px, 10vw, 10vw) + clamp(39px, 3.9vw, 3.9vw)));
 
-  height: calc(100vh - calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px) + clamp(30px, 3vw, 3vw)));
+  height: calc(100vh - calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px) + var(--standard-padding)));
   width: clamp(100px, 10vw, 10vw);
 
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 
   display: flex;
   flex-direction: column;

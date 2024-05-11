@@ -3,8 +3,8 @@
 .recentBlogs {
   margin-top: 40px;
 
-  width: calc(100% - (clamp(30px, 3vw, 3vw) * 2) - 8px);
-  min-height: calc(100vh - (clamp(30px, 3vw, 3vw) * 2) - 8px);
+  width: calc(100% - (var(--standard-padding) * 2) - 8px);
+  min-height: calc(100vh - (var(--standard-padding) * 2) - 8px);
   max-height: fit-content;
 
   background-color: var(--primary-dark-color);
@@ -18,7 +18,7 @@
 
   box-shadow: 0px 0px 50px var(--secondary-contrast-color); 
 
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 }
 
 .recentBlogsTitle{

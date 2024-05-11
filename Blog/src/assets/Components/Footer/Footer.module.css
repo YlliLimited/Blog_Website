@@ -4,7 +4,7 @@
 
   margin: 0px;
 
-  padding:  clamp(30px, 3vw, 3vw) 0px;
+  padding:  var(--standard-padding) 0px;
 
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@
 
   position: relative;
 
-  padding: calc(clamp(1.6rem, 4.2vw, 5.2rem) + clamp(30px, 3vw, 3vw))  clamp(30px, 3vw, 3vw) 0px;
+  padding: calc(clamp(1.6rem, 4.2vw, 5.2rem) + var(--standard-padding))  var(--standard-padding) 0px;
 
   margin-bottom: calc(1cqw + clamp(0.7rem, 1vw, 1.3rem));
 
@@ -31,7 +31,7 @@
 .footerTitle{
   position: absolute;
 
-  top: clamp(30px, 3vw, 3vw);
+  top: var(--standard-padding);
 
   margin: 0px;
 
@@ -39,7 +39,7 @@
 }
 
 .footerUl{
-  margin: clamp(30px, 3vw, 3vw);
+  margin: var(--standard-padding);
   list-style-type: none;
 
   color: var(--primary-light-color);

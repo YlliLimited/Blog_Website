@@ -24,6 +24,9 @@
   --primary-contrast-color: rgb(255, 32, 78);
   --secondary-contrast-color: rgb(160, 21, 62);
   --tertiary-contrast-color: rgb(93, 14, 65);
+
+
+  --standard-padding: clamp(30px, 3vw, 3vw);
 }
 
 /* Universal Colors End */
@@ -245,7 +248,7 @@ em{
 
   background-color: var(--secondary-dark-color);
   
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 }
 
 .formFlex{
@@ -256,11 +259,11 @@ em{
 }
 
 .formFlexChild:first-child{
-  margin-right: clamp(30px, 3vw, 3vw);
+  margin-right: var(--standard-padding);
 }
 
 .formParent h3{
-  margin: calc(clamp(30px, 10vw, 60px) + clamp(30px, 3vw, 3vw)) 0px clamp(30px, 3vw, 3vw) 0px;
+  margin: calc(clamp(30px, 10vw, 60px) + var(--standard-padding)) 0px var(--standard-padding) 0px;
 }
 
 .formParent label {
@@ -274,9 +277,9 @@ em{
 .formParent input{
   height: 40px;
   padding: 0px 8px;
-  width: calc(clamp(250px, 40vw, 40vw) + clamp(30px, 3vw, 3vw) + 20px);
+  width: calc(clamp(250px, 40vw, 40vw) + var(--standard-padding) + 20px);
 
-  margin-bottom: clamp(30px, 3vw, 3vw);
+  margin-bottom: var(--standard-padding);
 
   border: none;
   border-bottom: 2px solid var(--secondary-contrast-color);
@@ -292,7 +295,7 @@ em{
 .formParent textarea{
   height: 120px;
   padding: 5px;
-  width: calc(clamp(250px, 40vw, 40vw) + clamp(30px, 3vw, 3vw) + 28px);
+  width: calc(clamp(250px, 40vw, 40vw) + var(--standard-padding) + 28px);
   resize: vertical;
 
   background-color: transparent;
@@ -376,9 +379,9 @@ em{
 }
 
 #blogsSection{
-  padding: clamp(30px, 3vw, 3vw);
-  padding-top: calc(clamp(39px, 13vw, 78px) + clamp(30px, 3vw, 3vw));
-  width: calc(100% - (clamp(30px, 3vw, 3vw) * 2) - 8px);
+  padding: var(--standard-padding);
+  padding-top: calc(clamp(39px, 13vw, 78px) + var(--standard-padding));
+  width: calc(100% - (var(--standard-padding) * 2) - 8px);
 }
 
 .allBlogsTitle{
@@ -390,12 +393,12 @@ em{
 }
 
 .blogsHr{
-  margin: clamp(30px, 3vw, 3vw);
+  margin: var(--standard-padding);
   border-color: var(--primary-light-color);
 }
 
 .filteringParent{
-  padding: 0px clamp(30px, 3vw, 3vw);
+  padding: 0px var(--standard-padding);
   color: var(--primary-light-color);
 }
 
@@ -483,7 +486,7 @@ em{
 .inspoHeader{
   text-align: center;
   color: var(--primary-light-color);
-  margin: calc(clamp(39px, 13vw, 78px) + clamp(90px, 9vw, 9vw)) 0px clamp(30px, 3vw, 3vw) 0px;
+  margin: calc(clamp(39px, 13vw, 78px) + clamp(90px, 9vw, 9vw)) 0px var(--standard-padding) 0px;
 
   text-shadow: 0px 0px 100px var(--secondary-contrast-color);
 }
@@ -494,7 +497,7 @@ em{
 }
 
 .inspoTitle{
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 
   display: flex;
   justify-content: space-between;
@@ -510,7 +513,7 @@ em{
 }
 
 .inspoBody{
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 }
 
 .inspoBody a {
@@ -577,7 +580,7 @@ em{
   margin-top: calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px));
   margin-left: clamp(21px, 2.1vw, 2.1vw);
 
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 }
 
 .articleIcon{
@@ -596,12 +599,12 @@ em{
 }
 
 .articleHeaderHrTop{
-  margin: clamp(90px, 9vw, 9vw) clamp(90px, 9vw, 9vw) clamp(30px, 3vw, 3vw);
+  margin: clamp(90px, 9vw, 9vw) clamp(90px, 9vw, 9vw) var(--standard-padding);
 
   border-color: var(--primary-light-color); 
 }
 .articleHeaderHrBottom{
-  margin: clamp(30px, 3vw, 3vw) clamp(90px, 9vw, 9vw) clamp(90px, 9vw, 9vw);
+  margin: var(--standard-padding) clamp(90px, 9vw, 9vw) clamp(90px, 9vw, 9vw);
 
   border-color: var(--primary-light-color); 
 }
@@ -623,7 +626,8 @@ em{
   color: var(--primary-light-color);
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .articleContent p{
@@ -633,6 +637,32 @@ em{
 
 .articleContent h5{
   margin: 0px;
+  margin-top: clamp(60px, 6vw, 6vw);
+}
+
+.articleContent h6{
+  margin: 0px;
+  margin-top: var(--standard-padding);
+}
+
+.articleUl{
+  list-style-type: " - ";
+}
+.articleUl li::marker{
+  color: var(--secondary-contrast-color);
+}
+
+.articleLink{
+  color: var(--primary-light-color);
+  text-decoration: underline var(--secondary-contrast-color);
+  text-underline-offset: 4px;
+}
+
+.articleNote{
+  background-color: var(--secondary-dark-color);
+  padding: clamp(20px, 2vw, 2vw);
+
+  margin: var(--standard-padding) 0px;
 }
 
 

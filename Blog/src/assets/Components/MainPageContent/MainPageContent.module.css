@@ -25,7 +25,7 @@
 /* About Blog */
 
 .aboutBlog{
-  width: calc(100% - clamp(30px, 3vw, 3vw) * 2);
+  width: calc(100% - var(--standard-padding) * 2);
   height: fit-content;
 
   color: var(--primary-light-color);
@@ -34,12 +34,12 @@
   flex-direction: column;
   align-items: center;
 
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 }
 
 .aboutBlog h3{
   margin: 0px;
-  margin-bottom: clamp(30px, 3vw, 3vw);
+  margin-bottom: var(--standard-padding);
 }
 
 .aboutBlog p {
@@ -47,7 +47,7 @@
 }
 
 .aboutBlog img{
-  margin-top : clamp(30px, 3vw, 3vw);
+  margin-top : var(--standard-padding);
   width: clamp(200px, 20vw, 20vw);
 }
 
@@ -62,9 +62,9 @@
 /* Read Blog */
 
 .readBlog{
-  width: calc(80% - clamp(30px, 3vw, 3vw) * 2);
+  width: calc(80% - var(--standard-padding) * 2);
   height: fit-content;
-  padding: clamp(30px, 3vw, 3vw);
+  padding: var(--standard-padding);
 
   display: flex;
   flex-direction: column;
