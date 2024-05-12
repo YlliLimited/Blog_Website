@@ -72,3 +72,15 @@
 
   padding: 0.5cqw;
 }
+
+
+@media screen and (max-width: 599.98px) {
+  .footerOutline{
+    flex-direction: column;
+  }
+
+  .footerTitle{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

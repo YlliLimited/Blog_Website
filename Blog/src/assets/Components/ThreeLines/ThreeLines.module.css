@@ -5,7 +5,7 @@
 }
 .line{
   width: none;
-  height: 30vh;
+  height: clamp(30vw, 30vw, 200px);
 
   margin: clamp(50px, 9vw, 9vw) clamp(15px, 2vw, 2vw);
 

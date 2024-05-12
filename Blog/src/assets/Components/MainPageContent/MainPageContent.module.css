@@ -1,6 +1,6 @@
 /* Main Page Content */
 .mainPageContent{
-  margin: 40px 0px 0px 0px;
+  margin:0px;
 
   position: sticky;
   top: 0px;
@@ -48,7 +48,7 @@
 
 .aboutBlog img{
   margin-top : var(--standard-padding);
-  width: clamp(200px, 20vw, 20vw);
+  width: clamp(150px, 20vw, 20vw);
 }
 
 /* About Blog End */
@@ -80,6 +80,7 @@
 .readBlog h4{
   margin: 0px;
   color: var(--primary-light-color);
+  text-align: center;
 }
 
 .readButton{

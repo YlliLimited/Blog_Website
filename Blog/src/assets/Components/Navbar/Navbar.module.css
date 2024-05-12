@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 
-  padding: clamp(10px, 2vw, 15px) clamp(18px, 3vw, 25px);
+  padding: clamp(8px, 2vw, 15px) clamp(18px, 3vw, 25px);
 
   background-color: var(--primary-light-color);
 
@@ -26,8 +26,6 @@
 }
 
 .navbarTitle p{
-  font-family: "Jersey 15";
-
   color: var(--secondary-dark-color);
 
   margin: 0px;
@@ -96,4 +94,94 @@
 }
 .navButton:hover{
   box-shadow: 3.5px 3.5px 0px var(--secondary-contrast-color);
+}
+
+.navbarToggler{
+  background-color: transparent;
+  border: none;
+
+  transform: rotate(90deg);
+
+  margin-right: clamp(26px, 6vw, 50px);
+}
+
+.navbarToggler:hover{
+  cursor: pointer;
+}
+
+.navbarToggler p {
+  color: var(--primary-dark-color);
+}
+
+
+@media screen and (max-width: 999.98px) {
+
+  .offCanvas{
+    position: fixed;
+    top: 0px;
+    left: calc(0px - calc(var(--standard-padding) * 8) - 4px);
+  
+    width: calc(var(--standard-padding) * 6);
+    padding: var(--standard-padding);
+    height: 100vh;
+  
+    z-index: 20;
+  
+    background-color: var(--secondary-dark-color);
+    border-right: 4px solid var(--secondary-contrast-color);
+  
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  
+    transition: left 0.2s ease-out, box-shadow 0.2s ease-out;
+  }
+
+
+  .navbar{
+    justify-content: end;
+  }
+
+  .navbarTitle p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .navUl , .navUl li{
+    display: block;
+  }
+
+  .navUl li{
+    margin: calc(var(--standard-padding) / 2) 0px;
+  }
+  
+  .navUl li:last-child{
+    margin: var(--standard-padding) 0px;
+  }
+
+  .navUl li a{
+    color: var(--primary-light-color);
+  }
+
+  .navUl li h6{
+    color: var(--primary-light-color);
+    margin: var(--standard-padding) 0px;
+    text-align: center;
+  }
+
+  .offCanvasHr{
+    border-color: var(--primary-light-color);
+    margin: var(--standard-padding) 0px;
+  }
+
+  .navButton{
+    background-color: var(--primary-light-color);
+  }
+  .navButton p{
+    color: var(--primary-dark-color);
+  }
+}
+
+@media screen and (max-width: 749.98px) {
+  .navUl li h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 }
