@@ -610,8 +610,13 @@ em{
 #articleBody{
   margin-top: calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px));
   margin-left: clamp(21px, 2.1vw, 2.1vw);
+  
+
+  width: auto;
 
   padding: var(--standard-padding) 0px;
+
+  overflow: hidden;
 }
 
 .articleIcon{
