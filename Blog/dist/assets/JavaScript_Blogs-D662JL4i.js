@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/Article-T_0p32mL.js","assets/index-CM1kpqyO.js","assets/index-CXg3SZqi.css","assets/Article-UjdH0_Ib.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{j as r,r as a,_ as t}from"./index-CM1kpqyO.js";a.lazy(()=>t(()=>import("./Article-T_0p32mL.js"),__vite__mapDeps([0,1,2,3])));function s(){return r.jsx(r.Fragment,{children:r.jsx(a.Suspense,{fallback:r.jsx("h6",{children:"Loading..."})})})}export{s as default};
