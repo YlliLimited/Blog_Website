@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
   font-family: "Jersey 15";
-  src: url('/Fonts/Jersey15-Regular.ttf')  format('truetype');
+  src: url('/Fonts/Jersey15-Regular.woff2')  format('woff');
 }
 /* Fonts End*/
 
