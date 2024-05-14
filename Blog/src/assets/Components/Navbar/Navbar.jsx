@@ -87,7 +87,7 @@ function Navbar (props) {
             
   
             <ul className={styles.navUl}>
-                <li><Link to={"/"}><h6 className={styles.navbarTitle}>Ylli's Blog</h6></Link></li>
+                <li className={styles.navbarTitle}><Link to={"/"}><p>Ylli's Blog</p></Link></li>
                 <li><button onClick={toggleOffcanvas} className={styles.navbarToggler}><p>|||</p></button></li>
             </ul>
   
