@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react";
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Navbar.module.css"
 
-function Navbar (props) {
+export default function Navbar (props) {
   const navbar = useRef(null);
 
   if (props.hide !== "false") {
@@ -61,7 +61,7 @@ function Navbar (props) {
             
   
             <ul className={styles.navUl}>
-                <li className={styles.navbarTitle}><Link to={"/"}><p>Ylli's Blog</p></Link></li>
+                <li className={styles.navbarTitle}><Link to={"/"}><p><em>&lt;C/&gt;</em> Ylli's Blog</p></Link></li>
                 <li><Link to={"/"} className={styles.navLink}><p>Home</p></Link></li>
                 <li><Link to={"/Blog/"} className={styles.navLink}><p>Blog</p></Link></li>
                 <li><Link to={"/Website_Inspo/"} className={styles.navLink}><p>Website Inspo</p></Link></li>
@@ -87,7 +87,7 @@ function Navbar (props) {
             
   
             <ul className={styles.navUl}>
-                <li className={styles.navbarTitle}><Link to={"/"}><p>Ylli's Blog</p></Link></li>
+                <li className={styles.navbarTitle}><Link to={"/"}><p><em>&lt;C/&gt;</em> Ylli's Blog</p></Link></li>
                 <li><button onClick={toggleOffcanvas} className={styles.navbarToggler}><p>|||</p></button></li>
             </ul>
   
@@ -115,5 +115,3 @@ function Navbar (props) {
   }
 
 }
-
-export default Navbar;

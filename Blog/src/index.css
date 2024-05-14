@@ -162,7 +162,7 @@ em{
 
 .heroTitle{
   color: var(--primary-light-color);
-  margin: 0px;
+  margin: 0px 20px;
   text-align: center;
 }
 
@@ -630,7 +630,7 @@ em{
   color: var(--primary-light-color);
   text-align: center;
 
-  text-shadow: 0px 0px 150px var(--secondary-contrast-color);
+  text-shadow: 0px 0px 100px var(--secondary-contrast-color);
 
   margin: 0px;
   margin-right: var(--standard-padding);
