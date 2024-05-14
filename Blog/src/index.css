@@ -162,12 +162,12 @@ em{
 
 .heroTitle{
   color: var(--primary-light-color);
-  margin: 0px 20px;
+  margin: 0px 18px;
   text-align: center;
 }
 
 .heroButton{
-  margin-top: clamp(15px, 2cqw, 2cqw);
+  margin-top: clamp(20px, 2cqw, 2cqw);
 
   color: var(--primary-dark-color);
   text-decoration: none;

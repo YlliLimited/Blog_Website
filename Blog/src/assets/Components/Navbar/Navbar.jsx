@@ -97,11 +97,11 @@ export default function Navbar (props) {
 
           <div className={styles.offCanvas} ref={offCanvas}>
             <ul className={styles.navUl}>
-                <li><h6>Navigation</h6></li>
+                <li><h5>Navigation</h5></li>
                 <hr className={styles.offCanvasHr}/>
-                <li><Link to={"/"} className={styles.navLink}><p>Home</p></Link></li>
-                <li><Link to={"/Blog/"} className={styles.navLink}><p>Blog</p></Link></li>
-                <li><Link to={"/Website_Inspo/"} className={styles.navLink}><p>Website Inspo</p></Link></li>
+                <li><Link to={"/"} className={styles.navLink}><h6>Home</h6></Link></li>
+                <li><Link to={"/Blog/"} className={styles.navLink}><h6>Blog</h6></Link></li>
+                <li><Link to={"/Website_Inspo/"} className={styles.navLink}><h6>Website Inspo</h6></Link></li>
                 <li><Link to={"/Contact/"} className={styles.navButton}><p>Contact Me</p></Link></li>
             </ul>
           </div>
