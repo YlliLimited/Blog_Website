@@ -29,7 +29,7 @@
   color: var(--primary-light-color);
   text-align: center;
 
-  text-shadow: clamp(2px, 0.25cqw, 5px) clamp(2px, 0.25cqw, 5px) 0px var(--secondary-contrast-color);
+  text-shadow: clamp(3px, 0.25cqw, 5px) clamp(3px, 0.25cqw, 5px) 0px var(--secondary-contrast-color);
 }
 
 .cardsParent{

@@ -40,7 +40,7 @@
   margin: var(--standard-padding) 0px;
 
 
-  text-shadow: clamp(2px, 0.25cqw, 5px) clamp(2px, 0.25cqw, 5px) 0px var(--secondary-contrast-color);
+  text-shadow: clamp(3px, 0.25cqw, 5px) clamp(3px, 0.25cqw, 5px) 0px var(--secondary-contrast-color);
 }
 
 .aboutBlog p {
@@ -85,16 +85,16 @@
 }
 
 .readButton{
-  margin-top: 2cqw;
+  margin-top: clamp(14px, 2cqw, 2cqw);
 
   color: var(--primary-dark-color);
   text-decoration: none;
   
   background-color: var(--primary-light-color);
 
-  box-shadow: 5px 5px 0px var(--secondary-contrast-color);
+  box-shadow: 3px 3px 0px var(--secondary-contrast-color);
 
-  padding: clamp(8px, 0.85cqw, 0.85cqw) clamp(25px, 1.9cqw, 1.9cqw);
+  padding: var(--button-padding);
 
   transition: transform 0.1s, box-shadow 0.1s;
 }
@@ -104,7 +104,7 @@
 }
 
 .readButton:hover {
-  box-shadow: -5px -5px 0px var(--secondary-contrast-color);
+  box-shadow: -4px -4px 0px var(--secondary-contrast-color);
   transform: rotate(-5deg);
 }
 /* Read Blog End */

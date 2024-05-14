@@ -7,7 +7,7 @@
 
 
 
-/* Universal Colors */
+/* Universal Variables */
 
 :root {
   --primary-dark-color: rgb(4, 13, 18);
@@ -27,9 +27,10 @@
 
 
   --standard-padding: clamp(30px, 3vw, 3vw);
+  --button-padding: clamp(7px, 0.8cqw, 0.8cqw) clamp(24px, 2.1cqw, 2.1cqw);
 }
 
-/* Universal Colors End */
+/* Universal Variables End */
 
 
 
@@ -166,7 +167,7 @@ em{
 }
 
 .heroButton{
-  margin-top: 2cqw;
+  margin-top: clamp(15px, 2cqw, 2cqw);
 
   color: var(--primary-dark-color);
   text-decoration: none;
@@ -175,7 +176,7 @@ em{
 
   box-shadow: -3px 3px 0px var(--secondary-contrast-color);
 
-  padding: clamp(8px, 0.85cqw, 0.85cqw) clamp(25px, 1.9cqw, 1.9cqw);
+  padding: var(--button-padding);
 
   transition: transform 0.1s, box-shadow 0.1s;
 }
