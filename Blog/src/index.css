@@ -21,7 +21,7 @@
   --tertiary-light-color: rgb(222, 208, 182);
   --quantertary-light-color: rgb(187, 171, 140);
 
-  --primary-contrast-color: rgb(255, 32, 78);
+  --primary-contrast-color: rgb(240, 21, 87);
   --secondary-contrast-color: rgb(160, 21, 62);
   --tertiary-contrast-color: rgb(93, 14, 65);
 
@@ -109,7 +109,7 @@ small{
 }
 
 em{
-  color: var(--secondary-contrast-color);
+  color: var(--primary-contrast-color);
   font-family: "Jersey 15";
 }
 
