@@ -6,10 +6,10 @@
   position: fixed;
 
   top: calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px));
-  left: calc(0px - calc(clamp(100px, 10vw, 10vw) + clamp(39px, 3.9vw, 3.9vw)));
+  left: calc(0px - calc(clamp(105px, 10.5vw, 10.5vw) + clamp(39px, 3.9vw, 3.9vw)));
 
   height: calc(100vh - calc(clamp(30px, 10vw, 60px) + clamp(10px, 2vw, 15px) + var(--standard-padding)));
-  width: clamp(100px, 10vw, 10vw);
+  width: clamp(110px, 11vw, 11vw);
 
   padding: var(--standard-padding);
 
@@ -65,7 +65,7 @@
 .chaptersClose{
   position: absolute;
   top: clamp(18px, 1.8vw, 1.8vw);
-  left: calc(clamp(100px, 10vw, 10vw) + clamp(43px, 4.5vw, 4.5vw));
+  left: calc(clamp(105px, 10.5vw, 10.5vw) + clamp(43px, 4.5vw, 4.5vw));
 
   background-color: transparent;
   border: none;
@@ -76,7 +76,7 @@
   transition:  transform 0.2s ease-out;
 
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
 }
 
 .chaptersClose small{

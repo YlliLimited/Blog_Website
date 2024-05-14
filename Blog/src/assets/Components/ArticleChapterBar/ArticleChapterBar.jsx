@@ -9,11 +9,11 @@ export default function ArticleChapterBar (props) {
   const chapterBar = useRef(null);
   const chapterToggle = useRef(null);
 
-  const [chapterBarStatus, setChapterBarStatus] = useState("opened");
+  const [chapterBarStatus, setChapterBarStatus] = useState("closed");
 
   function toggleChaptersBar() {
     if (chapterBarStatus === "opened") {
-      chapterBar.current.style.left = "calc(0px - calc(clamp(100px, 10vw, 10vw) + clamp(39px, 3.9vw, 3.9vw)))";
+      chapterBar.current.style.left = "calc(0px - calc(clamp(105px, 10.5vw, 10.5vw) + clamp(39px, 3.9vw, 3.9vw)))";
       chapterToggle.current.style.transform = "rotate(-90deg)";
       setChapterBarStatus("closed");
     } else if (chapterBarStatus === "closed"){
