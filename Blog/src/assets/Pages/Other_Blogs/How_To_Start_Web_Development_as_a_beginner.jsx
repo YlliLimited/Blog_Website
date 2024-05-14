@@ -168,6 +168,83 @@ export default () => {
           </section>
 
 
+
+
+          <section id="css" className="articleContent">
+            <h5>Step 2: CSS</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+
+              After experimenting around with HTML, you have probably noticed how bad everything looks on the page.
+              This is because with HTML you only display the content of the page, without styling it,
+              and this is where CSS comes in. With CSS you can <em>style everything</em> in the web page, from 
+              <em>fonts, colors, sizes, positioning and much much more.</em> <br />
+              Learning CSS is a <em>must</em> for web developers because it is a tool that will follow you through
+              your whole Web Development journey, and it is also the tool that developers use
+              to create <em>stunning designs</em> on their websites.
+
+
+              <h6>Learning Resources:</h6>
+              <ul className="articleUl">
+                <li><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett <em>(recommended)</em></li>
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=wRNinF7YQqQ&t=1196s" className="articleLink">Learn CSS in 1 hour</a></li>
+                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/css/default.asp" className="articleLink"> W3Schools CSS tutorial</a></li>
+              </ul>
+
+
+              <h6>Project Ideas:</h6>
+              <ul className="articleUl">
+                <li>Styling your HTML only projecs</li>
+                <li>Photo Album</li>
+                <li>Different UI components</li>
+                <li>Blog Website</li>
+                <li>E-Commerce Website</li>
+              </ul>
+
+              
+            </p>
+          </section>
+
+
+
+
+          <section id="javascript" className="articleContent">
+            <h5>Step 3: JavaScript</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+
+              And we're finally here! JavaScript is one of the most popular programming languages in the world,
+              and not without reason. It is used to build many different things, such as websites, mobile applications
+              , videogames and much much more. As Atwood's law puts it,
+              <div className="articleQuote">
+                "Any application that can be written in JavaScript, will eventually be written in JavaScript."
+                <div className="articleQuoteAuthor"> - Jeff Atwood</div>
+              </div>
+
+
+              <h6>Learning Resources:</h6>
+              <ul className="articleUl">
+                <li><em>Book:</em>&nbsp; JavaScript & JQuery, interactive front-end web development - Jon Duckett <em>(recommended)</em></li>
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=EerdGm-ehJQ" className="articleLink">JavaScript Tutorial Full Course - Beginner to Pro</a></li>
+                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/js/default.asp" className="articleLink"> W3Schools JavaScript tutorial</a></li>
+              </ul>
+
+
+              <h6>Project Ideas:</h6>
+              <ul className="articleUl">
+                <li>Calculator App</li>
+                <li>Modal, Offcanvas and Carousel elements</li>
+                <li>To-Do App</li>
+                <li>Unit Converter</li>
+                <li>Weather App</li>
+              </ul>
+
+              
+            </p>
+          </section>
+
+
+
         </div>
 
 

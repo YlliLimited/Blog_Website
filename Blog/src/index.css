@@ -713,5 +713,21 @@ em{
   margin: var(--standard-padding) 0px;
 }
 
+.articleQuote{
+  font-weight: bold;
+
+  margin: 15px 0px;
+  color: var(--primary-contrast-color);
+}
+
+.articleQuoteAuthor{
+  font-weight: 500;
+  font-style: italic;
+
+  margin: 5px 0px;
+
+  color: var(--secondary-contrast-color);
+}
+
 
 /* Article End */
