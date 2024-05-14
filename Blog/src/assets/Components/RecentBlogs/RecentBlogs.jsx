@@ -18,8 +18,6 @@ function RecentBlogs () {
       <div className={styles.cardsParent}>
 
         <Article title = {"How to start web development as a beginner?"} logoSrc = {"html_logo.svg"} link = {"How_to_start_web_development_as_a_beginner"}/>
-        <Article title = {"How to create an accordion with React JS?"} logoSrc = {"react_logo.svg"} link = {"How_to_create_an_accordion_with_React_JS"}/>
-        <Article title = {"CSS Basics"} logoSrc = {"css_logo.svg"} link = {"CSS_Basics"}/>
 
       </div>
 

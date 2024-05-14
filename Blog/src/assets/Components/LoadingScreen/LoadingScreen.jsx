@@ -1,35 +1,7 @@
 import styles from "./LoadingScreen.module.css"
-import { useEffect, useRef } from "react";
 
 
 function LoadingScreen () {
-
-  const loadingScreen = useRef(null);
-
-
-  useEffect(() => {
-
-
-    function removeLoadingScreen() {
-      loadingScreen.current.style.visibility = "hidden";
-    }
-
-
-    if (document.readyState === 'complete') {
-
-      removeLoadingScreen();
-
-    } else {
-
-      window.addEventListener('load', removeLoadingScreen);
-
-
-      return () => window.removeEventListener('load', removeLoadingScreen);
-    }
-
-
-  }, []);
-
 
 
     return (
@@ -42,7 +14,6 @@ function LoadingScreen () {
         </div>
       </div>
     )
-
 
 }   
 
