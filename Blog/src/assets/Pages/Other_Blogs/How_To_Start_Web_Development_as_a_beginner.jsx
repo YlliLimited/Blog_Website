@@ -214,12 +214,15 @@ export default () => {
             <p className="articleP">
 
               And we're finally here! JavaScript is one of the <em>most popular programming languages</em> in the world,
-              and not without reason. It is used to build many different things, such as <em>websites, mobile applications
-              , videogames and much much more.</em> As Atwood's law puts it,
+              and not without reason. It is used to build many different things, such as <em>websites, mobile applications, videogames and much much more.</em> As Atwood's law beautifully puts it,
               <div className="articleQuote">
                 "Any application that can be written in JavaScript, will eventually be written in JavaScript."
                 <div className="articleQuoteAuthor"> - Jeff Atwood</div>
               </div>
+
+              By learning JavaScript, you can start to build much more complicated websites, and it is 
+              the <em>primary language</em> that is used both in the <em>frontend and in the backend</em> of modern websites.
+
 
 
               <h6>Learning Resources:</h6>
