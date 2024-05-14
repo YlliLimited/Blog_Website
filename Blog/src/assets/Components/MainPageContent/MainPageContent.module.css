@@ -1,6 +1,7 @@
 /* Main Page Content */
 .mainPageContent{
   margin:0px;
+  margin-top: 50px;
 
   position: sticky;
   top: 0px;
@@ -10,8 +11,6 @@
   background-color: var(--primary-dark-color);
 
   border-top: 4px solid var(--secondary-contrast-color);
-
-  box-shadow: 0px 0px 50px var(--secondary-contrast-color);
 }
 /* Main Page Content End */
 
@@ -38,8 +37,10 @@
 }
 
 .aboutBlog h3{
-  margin: 0px;
-  margin-bottom: var(--standard-padding);
+  margin: var(--standard-padding) 0px;
+
+
+  text-shadow: clamp(2px, 0.25cqw, 5px) clamp(2px, 0.25cqw, 5px) 0px var(--secondary-contrast-color);
 }
 
 .aboutBlog p {
@@ -74,7 +75,7 @@
 
   margin: clamp(60px, 6vw, 6vw) auto;
 
-  box-shadow: clamp(5px, 0.6cqw, 0.6cqw) clamp(5px, 0.6cqw, 0.6cqw)  var(--primary-light-color), clamp(10px, 1.2cqw, 1.2cqw) clamp(10px, 1.2cqw, 1.2cqw)  var(--secondary-contrast-color);
+  box-shadow: clamp(5px, 0.6cqw, 0.6cqw) clamp(5px, 0.6cqw, 0.6cqw)  var(--tertiary-light-color), clamp(10px, 1.2cqw, 1.2cqw) clamp(10px, 1.2cqw, 1.2cqw)  var(--secondary-contrast-color);
 }
 
 .readBlog h4{

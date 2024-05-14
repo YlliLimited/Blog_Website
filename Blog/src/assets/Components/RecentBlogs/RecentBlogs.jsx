@@ -12,12 +12,16 @@ function RecentBlogs () {
 
     <section className={styles.recentBlogs}>
 
+      <div className={styles.recentBlogsParent}>
+
       <h3 className={styles.recentBlogsTitle}>Recent Blogs</h3>
 
 
       <div className={styles.cardsParent}>
 
         <Article title = {"How to start web development as a beginner?"} logoSrc = {"html_logo.svg"} link = {"How_to_start_web_development_as_a_beginner"}/>
+
+      </div>
 
       </div>
 
