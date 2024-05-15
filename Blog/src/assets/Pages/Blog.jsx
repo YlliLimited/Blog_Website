@@ -8,7 +8,6 @@ const Footer = lazy(() => import("../Components/Footer/Footer.jsx"));
 
 function Blog () {
 
-  
   const [blogsToLoad, setBlogsToLoad] = useState("all");
 
   return (

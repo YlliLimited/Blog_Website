@@ -20,7 +20,7 @@ function RecentBlogs () {
       <div className={styles.cardsParent}>
 
         <Article title = {"How to start web development as a beginner?"} logoSrc = {"html_logo.svg"} link = {"How_to_start_web_development_as_a_beginner"}/>
-
+        
       </div>
 
       </div>

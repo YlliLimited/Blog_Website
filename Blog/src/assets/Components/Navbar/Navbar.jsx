@@ -48,6 +48,10 @@ export default function Navbar (props) {
       setOffCanvasStatus("opened");
     }
   }
+  
+  function scrollToTop () {
+    window.scrollTo(0, 0);
+  }
 
 
 
@@ -61,11 +65,11 @@ export default function Navbar (props) {
             
   
             <ul className={styles.navUl}>
-                <li className={styles.navbarTitle}><Link to={"/"}><p><em>&lt;C/&gt;</em> Ylli's Blog</p></Link></li>
-                <li><Link to={"/"} className={styles.navLink}><p>Home</p></Link></li>
-                <li><Link to={"/Blog/"} className={styles.navLink}><p>Blog</p></Link></li>
-                <li><Link to={"/Website_Inspo/"} className={styles.navLink}><p>Website Inspo</p></Link></li>
-                <li><Link to={"/Contact/"} className={styles.navButton}><p>Contact Me</p></Link></li>
+                <li className={styles.navbarTitle}><Link to={"/"} onClick={() => scrollToTop()}><p><em>&lt;C/&gt;</em> Ylli's Blog</p></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/"} className={styles.navLink}><p>Home</p></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/Blog/"} className={styles.navLink}><p>Blog</p></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/Website_Inspo/"} className={styles.navLink}><p>Website Inspo</p></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/Contact/"} className={styles.navButton}><p>Contact Me</p></Link></li>
             </ul>
   
   
@@ -99,10 +103,10 @@ export default function Navbar (props) {
             <ul className={styles.navUl}>
                 <li><h5>Navigation</h5></li>
                 <hr className={styles.offCanvasHr}/>
-                <li><Link to={"/"} className={styles.navLink}><h6>Home</h6></Link></li>
-                <li><Link to={"/Blog/"} className={styles.navLink}><h6>Blog</h6></Link></li>
-                <li><Link to={"/Website_Inspo/"} className={styles.navLink}><h6>Website Inspo</h6></Link></li>
-                <li><Link to={"/Contact/"} className={styles.navButton}><p>Contact Me</p></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/"} className={styles.navLink}><h6>Home</h6></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/Blog/"} className={styles.navLink}><h6>Blog</h6></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/Website_Inspo/"} className={styles.navLink}><h6>Website Inspo</h6></Link></li>
+                <li><Link onClick={() => scrollToTop()} to={"/Contact/"} className={styles.navButton}><p>Contact Me</p></Link></li>
             </ul>
           </div>
   

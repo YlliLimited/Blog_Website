@@ -5,6 +5,13 @@ import styles from "./MainPageContent.module.css";
 const Footer = lazy(() => import("../Footer/Footer.jsx"));
 
 export default function MainPageContent() {
+
+
+  function scrollToTop () {
+    window.scrollTo(0, 0);
+  }
+
+
   return(
 
   <>
@@ -32,7 +39,7 @@ export default function MainPageContent() {
 
         <section className={styles.readBlog}>
           <h4>Have you seen enough?</h4>
-          <Link to={"/Blog/"} className = {styles.readButton}><p>View Blog</p></Link>
+          <Link onClick={() => scrollToTop()} to={"/Blog/"} className = {styles.readButton}><p>View Blog</p></Link>
         </section>  
 
       {/* Read the blog end */}

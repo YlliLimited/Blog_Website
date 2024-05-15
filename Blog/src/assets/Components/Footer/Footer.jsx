@@ -2,6 +2,11 @@ import { Link, Outlet } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 function Footer () {
+
+  function scrollToTop () {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <>
     <div className={styles.footerParent}>
@@ -15,9 +20,9 @@ function Footer () {
             <h6 className={styles.footerHeader}>Nav</h6>
           </li>
 
-          <li><Link to={"/"} className={styles.footerLink}><p>Home</p></Link></li>
-          <li><Link to={"/Blog/"} className={styles.footerLink}><p>Blog</p></Link></li>
-          <li><Link to={"/Website_Inspo/"} className={styles.footerLink}><p>Inspo</p></Link></li>
+          <li><Link onClick={() => scrollToTop()} to={"/"} className={styles.footerLink}><p>Home</p></Link></li>
+          <li><Link onClick={() => scrollToTop()} to={"/Blog/"} className={styles.footerLink}><p>Blog</p></Link></li>
+          <li><Link onClick={() => scrollToTop()} to={"/Website_Inspo/"} className={styles.footerLink}><p>Inspo</p></Link></li>
         </ul>
 
 
@@ -29,7 +34,7 @@ function Footer () {
           </li>
 
           <li>
-            <Link to={"/Contact/"} className={styles.footerLink}><p>Contact Me</p></Link>
+            <Link onClick={() => scrollToTop()} to={"/Contact/"} className={styles.footerLink}><p>Contact Me</p></Link>
           </li>
           <li><small>yllkelmendi05@gmail.com</small></li>
         </ul>
@@ -43,9 +48,9 @@ function Footer () {
           </li>
 
           <li>
-            <Link to={"/"} className={styles.footerLink}><p>LinkedIn</p></Link>
+            <Link onClick={() => scrollToTop()} to={"/"} className={styles.footerLink}><p>LinkedIn</p></Link>
           </li>
-          <li><Link to={"/"} className={styles.footerLink}><p>Fiverr</p></Link></li>
+          <li><Link onClick={() => scrollToTop()} to={"/"} className={styles.footerLink}><p>Fiverr</p></Link></li>
         </ul>
 
 

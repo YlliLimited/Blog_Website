@@ -7,6 +7,13 @@ const RecentBlogs = lazy(()=> import("../Components/RecentBlogs/RecentBlogs.jsx"
 const MainPageContent = lazy(()=> import("../Components/MainPageContent/MainPageContent.jsx"));
 
 function Home () {
+
+
+  function scrollToTop () {
+    window.scrollTo(0, 0);
+  }
+
+
   return (
     <>
 
@@ -37,7 +44,7 @@ function Home () {
             <div className= "heroContent">
 
               <h1 className="heroTitle">Ylli's <em>{"<Code/>"}</em> Blog</h1>
-              <Link to={"/Blog/"} className = "heroButton"><p>View Blog</p></Link>
+              <Link onClick={() => scrollToTop()} to={"/Blog/"} className = "heroButton"><p>View Blog</p></Link>
 
             </div>  
 
