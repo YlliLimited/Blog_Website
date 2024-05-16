@@ -26,7 +26,7 @@ export default function Contact () {
 
       <div className="formParent">
 
-        <h3>Direct Contact</h3>
+        <h3><em>- </em>Direct Contact<em> -</em></h3>
 
         <form
           action="https://formspree.io/f/mwkgyabo"

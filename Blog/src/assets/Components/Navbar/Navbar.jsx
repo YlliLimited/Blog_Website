@@ -54,7 +54,6 @@ export default function Navbar (props) {
   }
 
 
-
   if (window.innerWidth >= 1000) {
     return (
       <>
