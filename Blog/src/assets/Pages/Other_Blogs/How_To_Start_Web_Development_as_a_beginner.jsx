@@ -400,6 +400,13 @@ export default function HTSWDAAB () {
               To get started, I recommend learning Bootstrap because it's easier, but I 
               also think it's a must to also learn Tailwind, as it offers much more features but it 
               is a bit more complicated, so it's better to learn it after Bootstrap.
+
+
+              <h6>Learning Resources:</h6>
+              <ul className="articleUl">
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=-qfEOE4vtxE" className="articleLink">Bootstrap CSS Framework - Full Course for Beginners</a></li>
+                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="articleLink"> Bootstrap docs</a></li>
+              </ul>
             </p>
           </section>
 
