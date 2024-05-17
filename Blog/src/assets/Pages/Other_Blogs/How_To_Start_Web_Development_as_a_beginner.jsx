@@ -4,7 +4,7 @@ const Footer = lazy(() => import("../../Components/Footer/Footer.jsx"));
 const ArticleChapterBar = lazy(() => import("../../Components/ArticleChapterBar/ArticleChapterBar.jsx"));
 
 
-export default () => {
+export default function HTSWDAAB () {
   return(
     <>
       <Navbar hide="false"/>
@@ -242,6 +242,93 @@ export default () => {
                 <li>Weather App</li>
               </ul>
 
+              
+            </p>
+          </section>
+
+
+
+
+
+
+
+          <section id="mysql" className="articleContent">
+            <h5>Step 4: MySQL</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+
+              You have probably already noticed that all the websites that you have created so 
+              far haven't really got any complex functionality. This is because they were <em>Static Websites</em>,
+              which are websites that don't dynamically change their content. To create <em>Dynamic Websites</em>, you
+              need to add a databse to your website, and a very popular language to do this is <em>MySql.</em> <br/>
+              MySQL is one of the most widely used languages when it comes to <em>relational database</em> programming.
+              It is also not very hard to learn and use, so it's a very good choice for beginners to 
+              get their feet in <em>full-stack</em> development. 
+
+              <h6>Learning Resources:</h6>
+              <ul className="articleUl">
+                <li><em>Book:</em>&nbsp; PHP & MySQL, server-side web development - Jon Duckett <em>(recommended)</em></li>
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=5OdVJbNCSso" className="articleLink">MySQL full course for free</a></li>
+                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/mysql/" className="articleLink"> W3Schools MySQL tutorial</a></li>
+              </ul>
+
+
+              <h6>Project Ideas:</h6>
+              <ul className="articleUl">
+                <li>Library Database Design</li>
+                <li>Carwash Database Design</li>
+                <li>Lawyer Database Design</li>
+                <li>Clothes Shop Database Design</li>
+                <li>Social Media Database Design</li>
+              </ul>
+
+              
+            </p>
+          </section>
+
+
+
+
+
+
+
+
+          <section id="php" className="articleContent">
+            <h5>Step 5: PHP</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+
+              Now we've come to one of the most <em>important steps</em> of your web development journey, and that is <em>PHP</em>. 
+               After learning PHP, you can create almost any website that you want, including social media, e-commerce websites
+              and much much more. A lot of <em>popular sites</em> are built using PHP like <em>Facebook, Wikipedia, Etsy, Wordpress,</em> and 
+              this all goes to show you just how powerful this language is. <br />
+              PHP allows us to easily <em>connect</em> the back-end to the front-end of our sites, and display content <em>dynamically</em> from
+              the database. It's got a very simple syntax and this makes it an ideal choice for beginner programmers. <br />
+              Although in the recent years it's lost it's popularity, PHP is still <em>a must</em> for any web developers and it is
+              far from being a <em>"dead language"</em>.
+
+
+              <div className="articleNote">
+                <em>Note:&nbsp;</em> It's very important to note that PHP is not the best choice for creating
+                full-stack web applications because it's not the safest language in the world. However, I 
+                highly suggest you to learn it, so you can aquire a deeper knowledge of how full-stack programming works, which
+                will be very important when you are learning full-stack frameworks, that we will be talking about very
+                soon.
+              </div>
+              
+
+              <h6>Learning Resources:</h6>
+              <ul className="articleUl">
+                <li><em>Book:</em>&nbsp; PHP & MySQL, server-side web development - Jon Duckett <em>(recommended)</em></li>
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=zZ6vybT1HQs" className="articleLink">PHP Full Course for non-haters</a></li>
+                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/php/" className="articleLink"> W3Schools PHP tutorial</a></li>
+              </ul>
+
+
+              <h6>Project Ideas:</h6>
+              <ul className="articleUl">
+                <li>Create web applications for the databases that you have already created using MySQL</li>
+              </ul>
               
             </p>
           </section>
