@@ -339,7 +339,7 @@ export default function HTSWDAAB () {
             <hr className="articleContentHr"/>
             <p className="articleP">
               After going through the steps listed above, you have most likely aquired 
-              a great deal of information about web development. Now there is a question
+              a great deal of information about web development. Now there is a <em>question </em>
               that arises, <br />
 
               <div className="articleQuote">
@@ -353,14 +353,55 @@ export default function HTSWDAAB () {
               </div>
 
               In the modern web development world, it is very important to be a fluent front-end
-              and back-end developer This is because front-end and back-end both complement each other, and
-              a good web developer must have a 
+              and back-end developer. You will have many <em>more opportunities</em> as a full-stack developer,
+              compared to being only fluent on one of the "ends". This allows you to be more <em>flexible</em> as a 
+              programmer, and one step closer to landing your first job. <br />
+              It is important to mention that over time you will most likely specialize 
+              in front or back-end development, but in the beginning, being full-stack is the 
+              right choice.
 
             </p>
           </section>
 
 
 
+
+
+
+
+
+          <section id="frontend_development" className="articleContent">
+            <h5>Front-end Development</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+              Now we will go more in depth on front-end web development. We will learn about the
+              best <em>CSS Framework</em> to learn, then we will go through all of the main <em>JavaScript libraries</em>,
+              we will continue on to the best <em>JavaScript Framework</em>, and last we will learn about
+              some <em>extras</em> that we need to know.
+            </p>
+          </section>
+
+
+
+
+
+          <section id="css_framework" className="articleContent">
+            <h5>CSS Framework</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+              A great choice to get more into front-end development is to learn one of the
+              major CSS Frameworks. They allow you to develop your websites much <em>faster</em>, as 
+              they offer empre-made CSS classes to <em>heavily speed up</em> development. <br />
+              There are two main CSS Fameworks that you need to know: 
+              <ul className="articleUl">
+                <li><em>Bootstrap</em></li>
+                <li><em>Tailwind CSS</em></li>
+              </ul>
+              To get started, I recommend learning Bootstrap because it's easier, but I 
+              also think it's a must to also learn Tailwind, as it offers much more features but it 
+              is a bit more complicated, so it's better to learn it after Bootstrap.
+            </p>
+          </section>
 
 
 
