@@ -334,14 +334,37 @@ export default function HTSWDAAB () {
           </section>
 
 
+          <section id="frontend_or_backend" className="articleContent">
+            <h5>Front-end or Back-end Development?</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+              After going through the steps listed above, you have most likely aquired 
+              a great deal of information about web development. Now there is a question
+              that arises, <br />
+
+              <div className="articleQuote">
+                Should you continue web development as a front-end or back-end developer?
+              </div>
+
+              This is quite a big question that has a very simple answer.
+
+              <div className="articleQuote">
+                Both.
+              </div>
+
+              In the modern web development world, it is very important to be a fluent front-end
+              and back-end developer This is because front-end and back-end both complement each other, and
+              a good web developer must have a 
+
+            </p>
+          </section>
+
+
+
+
+
 
         </div>
-
-
-
-
-
-
 
         <Footer />
       </div>
