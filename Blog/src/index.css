@@ -747,6 +747,8 @@ em{
 .articleContent h5{
   margin: 0px;
   margin-top: clamp(90px, 9vw, 9vw);
+  width: 35ch;
+  
 }
 
 .articleContent h6{

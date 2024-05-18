@@ -55,7 +55,6 @@ export default function HTSWDAAB () {
           subchapters: [
             {name: "Backend Framework", href: "#backend_framework"},
             {name: "Database", href: "#database"},
-            {name: "JavaScript Framework", href: "#javascript_framework2"},
             {name: "Other", href: "#other2"},
           ]
         },
@@ -89,7 +88,7 @@ export default function HTSWDAAB () {
 
 
           <section id="introduction" className="articleContent">
-            <h5>Introduction</h5>
+            <h5><em>- </em>Introduction <em>-</em></h5>
             <hr className="articleContentHr"/>
             <p className="articleP">
               Web Development is one of the <em>largest branches</em> of programming, and this is the
@@ -104,7 +103,7 @@ export default function HTSWDAAB () {
 
 
           <section id="web_development_basics" className="articleContent">
-            <h5>Web Development Basics</h5>
+            <h5><em>- </em>Web Development Basics <em>-</em></h5>
             <hr className="articleContentHr"/>
             <p >
               Just like in any field of knowledge, so in web development, you need to have a very solid understanding
@@ -276,26 +275,25 @@ export default function HTSWDAAB () {
               MySQL is one of the most widely used languages when it comes to <em>relational database</em> programming.
               It is also not very hard to learn and use, so it's a very good choice for beginners to 
               get their feet in <em>full-stack</em> development. 
+            
+            </p>
 
               <h6>Learning Resources:</h6>
               <ul className="articleUl">
-                <li><em>Book:</em>&nbsp; PHP & MySQL, server-side web development - Jon Duckett <em>(recommended)</em></li>
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=5OdVJbNCSso" className="articleLink">MySQL full course for free</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/mysql/" className="articleLink"> W3Schools MySQL tutorial</a></li>
+                <li><p className="articleP"><em>Book:</em>&nbsp; PHP & MySQL, server-side web development - Jon Duckett <em>(recommended)</em></p></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=5OdVJbNCSso" className="articleLink">MySQL full course for free</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/mysql/" className="articleLink"> W3Schools MySQL tutorial</a></p></li>
               </ul>
 
 
               <h6>Project Ideas:</h6>
               <ul className="articleUl">
-                <li>Library Database Design</li>
-                <li>Carwash Database Design</li>
-                <li>Lawyer Database Design</li>
-                <li>Clothes Shop Database Design</li>
-                <li>Social Media Database Design</li>
+                <li><p className="articleP">Library Database Design</p></li>
+                <li><p className="articleP">Carwash Database Design</p></li>
+                <li><p className="articleP">Lawyer Database Design</p></li>
+                <li><p className="articleP">Clothes Shop Database Design</p></li>
+                <li><p className="articleP">Social Media Database Design</p></li>
               </ul>
-
-              
-            </p>
           </section>
 
 
@@ -319,60 +317,63 @@ export default function HTSWDAAB () {
               Although in the recent years it's lost it's popularity, PHP is still <em>a must</em> for any web developers and it is
               far from being a <em>"dead language"</em>.
 
+              </p>
+
 
               <div className="articleNote">
-                <em>Note:&nbsp;</em> It's very important to note that PHP is not the best choice for creating
+                <p className="articleP"><em>Note:&nbsp;</em> It's very important to note that PHP is not the best choice for creating
                 full-stack web applications because it's not the safest language in the world. However, I 
                 highly suggest you to learn it, so you can aquire a deeper knowledge of how full-stack programming works, which
                 will be very important when you are learning full-stack frameworks, that we will be talking about very
                 soon.
+                </p>
               </div>
               
 
               <h6>Learning Resources:</h6>
               <ul className="articleUl">
-                <li><em>Book:</em>&nbsp; PHP & MySQL, server-side web development - Jon Duckett <em>(recommended)</em></li>
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=zZ6vybT1HQs" className="articleLink">PHP Full Course for non-haters</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/php/" className="articleLink"> W3Schools PHP tutorial</a></li>
+                <li><p className="articleP"><em>Book:</em>&nbsp; PHP & MySQL, server-side web development - Jon Duckett <em>(recommended)</em></p></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=zZ6vybT1HQs" className="articleLink">PHP Full Course for non-haters</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/php/" className="articleLink"> W3Schools PHP tutorial</a></p></li>
               </ul>
 
 
               <h6>Project Ideas:</h6>
               <ul className="articleUl">
-                <li>Create web applications for the databases that you have already created using MySQL</li>
+                <li><p className="articleP">Create web applications for the databases that you have already created using MySQL</p></li>
               </ul>
-              
-            </p>
+            
           </section>
 
 
           <section id="frontend_or_backend" className="articleContent">
-            <h5>Front-end or Back-end Development?</h5>
+            <h5><em>- </em>Front-end or Back-end Development? <em>-</em></h5>
             <hr className="articleContentHr"/>
             <p className="articleP">
               After going through the steps listed above, you have most likely aquired 
               a great deal of information about web development. Now there is a <em>question </em>
               that arises, <br />
-
-              <div className="articleQuote">
-                Should you continue web development as a front-end or back-end developer?
-              </div>
-
-              This is quite a big question that has a very simple answer.
-
-              <div className="articleQuote">
-                Both.
-              </div>
-
-              In the modern web development world, it is very important to be a fluent front-end
-              and back-end developer. You will have many <em>more opportunities</em> as a full-stack developer,
-              compared to being only fluent on one of the "ends". This allows you to be more <em>flexible</em> as a 
-              programmer, and one step closer to landing your first job. <br />
-              It is important to mention that over time you will most likely specialize 
-              in front or back-end development, but in the beginning, being full-stack is the 
-              right choice.
-
             </p>
+
+              <div className="articleQuote">
+                <p className="articleP">Should you continue web development as a front-end or back-end developer?</p>
+              </div>
+
+              <p className="articleP">This is quite a big question that has a very simple answer.</p>
+
+              <div className="articleQuote">
+                <p className="articleP">Both.</p>
+              </div>
+
+              <p className="articleP">
+                In the modern web development world, it is very important to be a fluent front-end
+                and back-end developer. You will have many <em>more opportunities</em> as a full-stack developer,
+                compared to being only fluent on one of the "ends". This allows you to be more <em>flexible</em> as a 
+                programmer, and one step closer to landing your first job. <br />
+                It is important to mention that over time you will most likely specialize 
+                in front or back-end development, but in the beginning, being full-stack is the 
+                right choice.
+              </p>
           </section>
 
 
@@ -383,7 +384,7 @@ export default function HTSWDAAB () {
 
 
           <section id="frontend_development" className="articleContent">
-            <h5>Front-end Development</h5>
+            <h5><em>- </em>Front-end Development <em>-</em></h5>
             <hr className="articleContentHr"/>
             <p className="articleP">
               Now we will go more in depth on front-end web development. We will learn about the
@@ -405,21 +406,25 @@ export default function HTSWDAAB () {
               major CSS Frameworks. They allow you to develop your websites much <em>faster</em>, as 
               they offer pre-made CSS classes to <em>heavily speed up</em> development. <br />
               There are two main CSS Fameworks that you need to know: 
+              </p>
+
               <ul className="articleUl">
-                <li><em>Bootstrap</em></li>
-                <li><em>Tailwind CSS</em></li>
+                <li><p className="articleP"><em>Bootstrap</em></p></li>
+                <li><p className="articleP"><em>Tailwind CSS</em></p></li>
               </ul>
-              To get started, I recommend learning Bootstrap because it's easier, but I 
-              also think it's a must to also learn Tailwind, as it offers much more features but it 
-              is a bit more complicated, so it's better to learn it after Bootstrap.
+
+              <p className="articleP">
+                To get started, I recommend learning Bootstrap because it's easier, but I 
+                also think it's a must to also learn Tailwind, as it offers much more features but it 
+                is a bit more complicated, so it's better to learn it after Bootstrap.
+              </p>
 
 
               <h6>Learning Resources:</h6>
               <ul className="articleUl">
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=-qfEOE4vtxE" className="articleLink">Bootstrap CSS Framework - Full Course for Beginners</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="articleLink"> Bootstrap docs</a></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=-qfEOE4vtxE" className="articleLink">Bootstrap CSS Framework - Full Course for Beginners</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" className="articleLink"> Bootstrap docs</a></p></li>
               </ul>
-            </p>
           </section>
 
 
@@ -433,24 +438,28 @@ export default function HTSWDAAB () {
               A <em>must</em> in modern web development are JavaScript Libraries. They are very powerful tools used
               in front-end development, that allow <em>component</em> oriented programming. <br />
               There is a wide range of JavaScript Libraries, but the most important ones are:
+            </p>
+
               <ul className="articleUl">
-                <li><em>React</em></li>
-                <li><em>Angular</em></li>
-                <li><em>Svelte</em></li>
-                <li><em>Vue</em></li>
+                <li><p className="articleP"><em>React</em></p></li>
+                <li><p className="articleP"><em>Angular</em></p></li>
+                <li><p className="articleP"><em>Svelte</em></p></li>
+                <li><p className="articleP"><em>Vue</em></p></li>
               </ul>
-              You can probably see that there is a lot on the menu when it comes to JavaScript Libraries, but to not waste any
-              time, I suggest that you learn <em>React</em> first because it is <em>the most popular</em> library, but Angular is also a great
-              choice, as it's also very popular. When it comes to Svelte and Vue, they offer <em>liable</em> choices, but they are not as 
-              widely used as the before mentioned libraries.
+
+              <p className="articleP">
+                You can probably see that there is a lot on the menu when it comes to JavaScript Libraries, but to not waste any
+                time, I suggest that you learn <em>React</em> first because it is <em>the most popular</em> library, but Angular is also a great
+                choice, as it's also very popular. When it comes to Svelte and Vue, they offer <em>liable</em> choices, but they are not as 
+                widely used as the before mentioned libraries.
+              </p>
 
 
               <h6>Learning Resources:</h6>
               <ul className="articleUl">
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=CgkZ7MvWUAA" className="articleLink">React Full Course for free</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://react.dev/learn" className="articleLink"> React docs</a></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=CgkZ7MvWUAA" className="articleLink">React Full Course for free</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://react.dev/learn" className="articleLink"> React docs</a></p></li>
               </ul>
-            </p>
           </section>
 
 
