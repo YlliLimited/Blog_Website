@@ -31,14 +31,14 @@ export default function HTSWDAAB () {
 
 
         {
-          name: "Frontend or Backend Development?",  
+          name: "Front-end or Back-end Development?",  
           href: "#frontend_or_backend",   
           subchapters: []
         },
 
 
         {
-          name: "Frontend Development", 
+          name: "Front-end Development", 
           href: "#frontend_development", 
           subchapters: [
             {name: "CSS Framework", href: "#css_framework"},
@@ -50,13 +50,13 @@ export default function HTSWDAAB () {
 
 
         {
-          name: "Backend Development", 
+          name: "Back-end Development", 
           href: "#backend_development", 
           subchapters: [
             {name: "Backend Framework", href: "#backend_framework"},
             {name: "Database", href: "#database"},
-            {name: "JavaScript Framework", href: "#javascript_framework"},
-            {name: "Other", href: "#other"},
+            {name: "JavaScript Framework", href: "#javascript_framework2"},
+            {name: "Other", href: "#other2"},
           ]
         },
 
@@ -106,21 +106,24 @@ export default function HTSWDAAB () {
           <section id="web_development_basics" className="articleContent">
             <h5>Web Development Basics</h5>
             <hr className="articleContentHr"/>
-            <p className="articleP">
+            <p >
               Just like in any field of knowledge, so in web development, you need to have a very solid understanding
               of the basics. <br/>
               In web development, the basics include the following:
+            </p>
               <ul className="articleUl">
-                <li><em>HTML</em></li>
-                <li><em>CSS</em></li>
-                <li><em>JavaScript</em></li>
-                <li><em>MySQL</em></li>
-                <li><em>PHP</em></li>
+                <li><p className="articleP"><em>HTML</em></p></li>
+                <li><p className="articleP"><em>CSS</em></p></li>
+                <li><p className="articleP"><em>JavaScript</em></p></li>
+                <li><p className="articleP"><em>MySQL</em></p></li>
+                <li><p className="articleP"><em>PHP</em></p></li>
               </ul>
 
+            <p className="articleP">
               Once you have aquired a good understanding of these languages, you can build a
               multitude of <em>web applications</em> to add to your portfolio.
             </p>
+              
           </section>
 
 
@@ -136,35 +139,41 @@ export default function HTSWDAAB () {
               used as a standalone language, but it is also combined with other languages such as
               JavaScript and PHP to produce more powerful and more complex websites. <br />
 
+            </p>
+
               <h6>Learning Resources:</h6>
-              There are a wide variety of resources available where to learn HTML, but I will list
-              some of them below:
+              <p className="articleP">
+                There are a wide variety of resources available where to learn HTML, but I will list
+                some of them below:
+              </p>
+              
               <ul className="articleUl">
-                <li><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett <em>(recommended)</em></li>
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=HD13eq_Pmp8" className="articleLink">Learn HTML in 1 hour</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/html/default.asp" className="articleLink"> W3Schools HTML tutorial</a></li>
+                <li><p className="articleP"><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett <em>(recommended)</em></p></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=HD13eq_Pmp8" className="articleLink">Learn HTML in 1 hour</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/html/default.asp" className="articleLink"> W3Schools HTML tutorial</a></p></li>
               </ul>
 
               <div className="articleNote">
-                <em>Note:</em>&nbsp; There are many more resources avaliable to learn more about HTML, but
+                <p className="articleP"><em>Note:</em>&nbsp; There are many more resources avaliable to learn more about HTML, but
                 I've listed some that I have personally used before.
+                </p>
               </div>
 
               <h6>Project Ideas:</h6>
               <ul className="articleUl">
-                <li>Article page</li>
-                <li>YouTube copy</li>
-                <li>Wikipedia copy</li>
-                <li>Dentist website</li>
-                <li>Resume/CV website</li>
+                <li><p className="articleP">Article page</p></li>
+                <li><p className="articleP">YouTube copy</p></li>
+                <li><p className="articleP">Wikipedia copy</p></li>
+                <li><p className="articleP">Dentist website</p></li>
+                <li><p className="articleP">Resume/CV website</p></li>
               </ul>
 
               <div className="articleNote">
-                <em>Note:&nbsp;</em> Try to use as many different HTML tags as possible
+                <p className="articleP"><em>Note:&nbsp;</em> Try to use as many different HTML tags as possible
                 while creating these projects so that you can practice all the tags that you know.
+                </p>
               </div>
               
-            </p>
           </section>
 
 
@@ -182,27 +191,25 @@ export default function HTSWDAAB () {
               Learning CSS is a <em>must</em> for web developers because it is a tool that will follow you through
               your whole Web Development journey, and it is also the tool that developers use
               to create <em>stunning designs</em> on their websites.
+            </p>
 
 
               <h6>Learning Resources:</h6>
               <ul className="articleUl">
-                <li><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett <em>(recommended)</em></li>
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=wRNinF7YQqQ&t=1196s" className="articleLink">Learn CSS in 1 hour</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/css/default.asp" className="articleLink"> W3Schools CSS tutorial</a></li>
+                <li><p className="articleP"><em>Book:</em>&nbsp; HTML & CSS, design & build websites - Jon Duckett <em>(recommended)</em></p></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=wRNinF7YQqQ&t=1196s" className="articleLink">Learn CSS in 1 hour</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/css/default.asp" className="articleLink"> W3Schools CSS tutorial</a></p></li>
               </ul>
 
 
               <h6>Project Ideas:</h6>
               <ul className="articleUl">
-                <li>Styling your HTML only projecs</li>
-                <li>Photo Album</li>
-                <li>Different UI components</li>
-                <li>Blog Website</li>
-                <li>E-Commerce Website</li>
+                <li><p className="articleP">Styling your HTML only projecs</p></li>
+                <li><p className="articleP">Photo Album</p></li>
+                <li><p className="articleP">Different UI components</p></li>
+                <li><p className="articleP">Blog Website</p></li>
+                <li><p className="articleP">E-Commerce Website</p></li>
               </ul>
-
-              
-            </p>
           </section>
 
 
@@ -215,35 +222,40 @@ export default function HTSWDAAB () {
 
               And we're finally here! JavaScript is one of the <em>most popular programming languages</em> in the world,
               and not without reason. It is used to build many different things, such as <em>websites, mobile applications, videogames and much much more.</em> As Atwood's law beautifully puts it,
+            </p>
+            
               <div className="articleQuote">
-                "Any application that can be written in JavaScript, will eventually be written in JavaScript."
-                <div className="articleQuoteAuthor"> - Jeff Atwood</div>
+                <p className="articleP">"Any application that can be written in JavaScript, will eventually be written in JavaScript."</p>
+                <div className="articleQuoteAuthor"><p className="articleP"> - Jeff Atwood</p></div>
               </div>
+
+              <p className="articleP">
 
               By learning JavaScript, you can start to build much more complicated websites, and it is 
               the <em>primary language</em> that is used both in the <em>frontend and in the backend</em> of modern websites.
+
+              </p>
+            
 
 
 
               <h6>Learning Resources:</h6>
               <ul className="articleUl">
-                <li><em>Book:</em>&nbsp; JavaScript & JQuery, interactive front-end web development - Jon Duckett <em>(recommended)</em></li>
-                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=EerdGm-ehJQ" className="articleLink">JavaScript Tutorial Full Course - Beginner to Pro</a></li>
-                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/js/default.asp" className="articleLink"> W3Schools JavaScript tutorial</a></li>
+                <li><p className="articleP"><em>Book:</em>&nbsp; JavaScript & JQuery, interactive front-end web development - Jon Duckett <em>(recommended)</em></p></li>
+                <li><p className="articleP"><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=EerdGm-ehJQ" className="articleLink">JavaScript Tutorial Full Course - Beginner to Pro</a></p></li>
+                <li><p className="articleP"><em>Website:</em>&nbsp; <a target="_blank" href="https://www.w3schools.com/js/default.asp" className="articleLink"> W3Schools JavaScript tutorial</a></p></li>
               </ul>
 
 
               <h6>Project Ideas:</h6>
               <ul className="articleUl">
-                <li>Calculator App</li>
-                <li>Modal, Offcanvas and Carousel elements</li>
-                <li>To-Do App</li>
-                <li>Unit Converter</li>
-                <li>Weather App</li>
+                <li><p className="articleP">Calculator App</p></li>
+                <li><p className="articleP">Modal, Offcanvas and Carousel elements</p></li>
+                <li><p className="articleP">To-Do App</p></li>
+                <li><p className="articleP">Unit Converter</p></li>
+                <li><p className="articleP">Weather App</p></li>
               </ul>
 
-              
-            </p>
           </section>
 
 
@@ -391,7 +403,7 @@ export default function HTSWDAAB () {
             <p className="articleP">
               A great choice to get more into front-end development is to learn one of the
               major CSS Frameworks. They allow you to develop your websites much <em>faster</em>, as 
-              they offer empre-made CSS classes to <em>heavily speed up</em> development. <br />
+              they offer pre-made CSS classes to <em>heavily speed up</em> development. <br />
               There are two main CSS Fameworks that you need to know: 
               <ul className="articleUl">
                 <li><em>Bootstrap</em></li>
@@ -409,6 +421,38 @@ export default function HTSWDAAB () {
               </ul>
             </p>
           </section>
+
+
+
+
+
+          <section id="javascript_library" className="articleContent">
+            <h5>JavaScript Library</h5>
+            <hr className="articleContentHr"/>
+            <p className="articleP">
+              A <em>must</em> in modern web development are JavaScript Libraries. They are very powerful tools used
+              in front-end development, that allow <em>component</em> oriented programming. <br />
+              There is a wide range of JavaScript Libraries, but the most important ones are:
+              <ul className="articleUl">
+                <li><em>React</em></li>
+                <li><em>Angular</em></li>
+                <li><em>Svelte</em></li>
+                <li><em>Vue</em></li>
+              </ul>
+              You can probably see that there is a lot on the menu when it comes to JavaScript Libraries, but to not waste any
+              time, I suggest that you learn <em>React</em> first because it is <em>the most popular</em> library, but Angular is also a great
+              choice, as it's also very popular. When it comes to Svelte and Vue, they offer <em>liable</em> choices, but they are not as 
+              widely used as the before mentioned libraries.
+
+
+              <h6>Learning Resources:</h6>
+              <ul className="articleUl">
+                <li><em>Video:</em>&nbsp; <a target="_blank" href="https://www.youtube.com/watch?v=CgkZ7MvWUAA" className="articleLink">React Full Course for free</a></li>
+                <li><em>Website:</em>&nbsp; <a target="_blank" href="https://react.dev/learn" className="articleLink"> React docs</a></li>
+              </ul>
+            </p>
+          </section>
+
 
 
 

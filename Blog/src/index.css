@@ -761,6 +761,9 @@ em{
 .articleUl li::marker{
   color: var(--secondary-contrast-color);
 }
+.articleUl li p{
+  margin: 0px;
+}
 
 .articleLink{
   color: var(--primary-light-color);
@@ -776,6 +779,10 @@ em{
 
   border-left: 4px solid var(--secondary-contrast-color);
 }
+.articleNote p{
+  margin: 0px;
+}
+
 
 .articleContentHr{
   border-color: var(--secondary-contrast-color);
@@ -791,6 +798,9 @@ em{
 
   border-left: 2px solid var(--secondary-contrast-color);
   padding: 5px 10px; 
+}
+.articleQuote p, .articleQuote p {
+  margin: 0px;
 }
 
 .articleQuoteAuthor{

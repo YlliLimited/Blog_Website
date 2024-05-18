@@ -44,7 +44,7 @@ export default function ArticleChapterBar (props) {
               return (
               <>
 
-                <li key={chapter.name}>
+                <li key={chapter.href}>
                   <a href={chapter.href}><small>{chapter.name}</small></a>
                   
                   <ul className={styles.subChapterUl}>
@@ -52,7 +52,7 @@ export default function ArticleChapterBar (props) {
                       
                       chapter.subchapters.map((sub) => {
                         return (
-                          <li key={sub.name}><a href={sub.href}><span className="smaller">{sub.name}</span></a></li>
+                          <li key={sub.href}><a href={sub.href}><span className="smaller">{sub.name}</span></a></li>
                         )
                       })
 
